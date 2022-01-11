@@ -27,6 +27,7 @@ export default {
     '@nuxtjs/google-fonts',
   ],
   modules: ['@nuxtjs/axios', '@nuxt/content', '@nuxtjs/proxy'],
+  axios: { baseURL: '/', retry: true },
   proxy: { '/.netlify/functions/note': { target: 'http://localhost:9000' } },
   router: { base: baseDir },
   generate: { fallback: true },
