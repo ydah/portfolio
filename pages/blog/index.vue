@@ -28,7 +28,8 @@
 
 <script>
 export default {
-  name: 'IndexPage',
+  name: 'BlogPosts',
+  layout: 'blog',
   async asyncData({ $content }) {
     const posts = await $content('posts').sortBy('createdAt', 'desc').fetch()
     return { posts }
