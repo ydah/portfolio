@@ -1,6 +1,5 @@
 <template>
   <v-app>
-    <layouts-header />
     <v-main>
       <v-container>
         <Nuxt />
