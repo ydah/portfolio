@@ -15,7 +15,7 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   css: [{ src: '~assets/css/styles.scss' }],
-  plugins: [],
+  plugins: ['@/plugins/vee-validate'],
   components: true,
   buildModules: [
     '@nuxtjs/eslint-module',
@@ -32,7 +32,9 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
   },
-  build: {},
+  build: {
+    transpile: ['vee-validate/dist/rules'],
+  },
   googleFonts: {
     families: {
       'M PLUS 1p': true,
