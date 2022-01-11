@@ -7,7 +7,7 @@
             <v-list-item three-line>
               <v-list-item-content>
                 <div class="text-overline mb-4">
-                  {{ $dateFns.format(new Date(post.createdAt), 'yyyy/MM/dd') }}
+                  {{ $dateFns.format(new Date(post.created_at), 'yyyy/MM/dd') }}
                 </div>
                 <v-list-item-title class="text-h5 mb-1">{{
                   post.title
