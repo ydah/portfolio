@@ -22,6 +22,7 @@ export default {
     '@nuxtjs/stylelint-module',
     '@nuxtjs/vuetify',
     '@nuxtjs/date-fns',
+    '@nuxtjs/google-fonts',
   ],
   modules: ['@nuxtjs/axios', '@nuxt/content'],
   axios: {
@@ -32,4 +33,9 @@ export default {
     customVariables: ['~/assets/variables.scss'],
   },
   build: {},
+  googleFonts: {
+    families: {
+      'M PLUS 1p': true,
+    },
+  },
 }
