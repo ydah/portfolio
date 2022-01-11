@@ -1,83 +1,28 @@
 <template>
-  <v-row justify="center" align="center">
-    <v-col cols="12" sm="8" md="6">
-      <v-card class="logo py-4 d-flex justify-center">
-        <NuxtLogo />
-        <VuetifyLogo />
-      </v-card>
-      <v-card>
-        <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
-        </v-card-title>
-        <v-card-text>
-          <p>
-            Vuetify is a progressive Material Design component framework for
-            Vue.js. It was designed to empower developers to create amazing
-            applications.
-          </p>
-          <p>
-            For more information on Vuetify, check out the
-            <a
-              href="https://vuetifyjs.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              documentation </a
-            >.
-          </p>
-          <p>
-            If you have questions, please join the official
-            <a
-              href="https://chat.vuetifyjs.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="chat"
-            >
-              discord </a
-            >.
-          </p>
-          <p>
-            Find a bug? Report it on the github
-            <a
-              href="https://github.com/vuetifyjs/vuetify/issues"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="contribute"
-            >
-              issue board </a
-            >.
-          </p>
-          <p>
-            Thank you for developing with Vuetify and I look forward to bringing
-            more exciting features in the future.
-          </p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
-          </div>
-          <hr class="my-3" />
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Nuxt Documentation
-          </a>
-          <br />
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Nuxt GitHub
-          </a>
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer />
-          <v-btn color="primary" nuxt to="/inspire"> Continue </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-col>
-  </v-row>
+  <v-container>
+    <v-row>
+      <v-col md="6" sm="12">
+        <h2>タカダ ユウダイ (ydah)</h2>
+        <v-divider class="my-5" />
+        <p class="text-body-2">
+          Hi there. I'm Yudai Takada. Born in 1992. Living in Osaka.
+        </p>
+        <p class="text-body-2">
+          I have been developing software for about 6 years.
+        </p>
+        <p class="text-body-2">
+          Currently, I am working as a server-side engineer, mainly using Ruby
+          on Rails.
+        </p>
+        <p class="text-body-2">
+          I'm also personal working as a culinary researcher and photographer.
+        </p>
+      </v-col>
+      <v-col md="6" sm="12">
+        <v-img src="/lotus.jpg" contain />
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
@@ -85,3 +30,12 @@ export default {
   name: 'IndexPage',
 }
 </script>
+
+<style scoped>
+h1.title {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Audrey, sans-serif !important;
+  font-weight: 100;
+}
+</style>
