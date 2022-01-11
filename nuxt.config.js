@@ -21,6 +21,7 @@ export default {
     '@nuxtjs/eslint-module',
     '@nuxtjs/stylelint-module',
     '@nuxtjs/vuetify',
+    '@nuxtjs/date-fns',
   ],
   modules: ['@nuxtjs/axios', '@nuxt/content'],
   axios: {
