@@ -1,3 +1,5 @@
+const baseDir = process.env.BASE_DIR || '/'
+
 export default {
   target: 'static',
   head: {
@@ -24,10 +26,11 @@ export default {
     '@nuxtjs/date-fns',
     '@nuxtjs/google-fonts',
   ],
-  modules: ['@nuxtjs/axios', '@nuxt/content'],
-  axios: {
-    baseURL: '/',
-  },
+  modules: ['@nuxtjs/axios', '@nuxt/content', '@nuxtjs/proxy'],
+  proxy: { '/.netlify/functions/note': { target: 'http://localhost:9000' } },
+  router: { base: baseDir },
+  generate: { fallback: true },
+  telemetry: false,
   content: {},
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
