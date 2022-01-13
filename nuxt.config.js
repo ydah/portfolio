@@ -3,16 +3,52 @@ const baseDir = process.env.BASE_DIR || '/'
 export default {
   target: 'static',
   head: {
-    titleTemplate: '%s - ydah',
-    title: 'ydah',
+    titleTemplate: 'Yudai TAKADA/ydah - %s',
     htmlAttrs: {
       lang: 'ja',
+      prefix: 'og: http://ogp.me/ns#',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
+
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'This page shows the portfolio of software engineer ydah.',
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content: 'ydah,software,engineer,portfolio',
+      },
+
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: 'Yudai TAKADA/ydah',
+      },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://ydah.netlify.app/',
+      },
+      { hid: 'og:title', property: 'og:title', content: 'Yudai TAKADA/ydah' },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'This page shows the portfolio of software engineer ydah.',
+      },
+      { hid: 'og:image', property: 'og:image', content: '/ogp.jpg' },
+
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      { hid: 'twitter:site', name: 'twitter:site', content: '@ydah_' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
