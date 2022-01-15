@@ -56,12 +56,17 @@
                 ><v-chip label outlined>Essays</v-chip></v-list-item-subtitle
               >
             </v-list-item-content>
-            <v-list-item-avatar tile size="160" color="grey">
+            <v-list-item-avatar
+              tile
+              size="160"
+              color="grey"
+              class="d-none d-lg-flex"
+            >
               <img src="/work01.jpg" alt="work#01" />
             </v-list-item-avatar>
           </v-list-item>
         </v-card>
-        <v-card outlined>
+        <v-card outlined style="overflow-wrap: break-word">
           <v-list-item three-line>
             <v-list-item-content>
               <NuxtLink to="/work/photo" class="card-link">
@@ -82,7 +87,12 @@
                 ></v-list-item-subtitle
               >
             </v-list-item-content>
-            <v-list-item-avatar tile size="160" color="grey">
+            <v-list-item-avatar
+              tile
+              size="160"
+              color="grey"
+              class="d-none d-lg-flex"
+            >
               <img src="/work02.jpg" alt="work#02" />
             </v-list-item-avatar>
           </v-list-item>
