@@ -37,66 +37,7 @@
         />
       </v-col>
       <v-col md="6" sm="12">
-        <v-card outlined class="mb-3">
-          <v-list-item three-line>
-            <v-list-item-content>
-              <NuxtLink to="/work/cook" class="card-link">
-                <div class="text-overline mb-4">WORK#01</div>
-                <v-list-item-title class="text-h5 mb-1"
-                  >Recipe books and food essays</v-list-item-title
-                >
-                <v-list-item-subtitle
-                  >I publish recipes for dishes that I make in my daily life. I
-                  also write essays on the theme of food.</v-list-item-subtitle
-                >
-              </NuxtLink>
-              <v-list-item-subtitle
-                ><v-chip label outlined class="mr-2">Recipe</v-chip
-                ><v-chip label outlined class="mr-2">Cooking</v-chip
-                ><v-chip label outlined>Essays</v-chip></v-list-item-subtitle
-              >
-            </v-list-item-content>
-            <v-list-item-avatar
-              tile
-              size="160"
-              color="grey"
-              class="d-none d-lg-flex"
-            >
-              <img src="/work01.jpg" alt="work#01" />
-            </v-list-item-avatar>
-          </v-list-item>
-        </v-card>
-        <v-card outlined style="overflow-wrap: break-word">
-          <v-list-item three-line>
-            <v-list-item-content>
-              <NuxtLink to="/work/photo" class="card-link">
-                <div class="text-overline mb-4">WORK#02</div>
-                <v-list-item-title class="text-h5 mb-1"
-                  >Gallery of Travel Photography</v-list-item-title
-                >
-                <v-list-item-subtitle
-                  >I have been taking photographic works during my travels. I
-                  cut out the landscape and leave the memories as a work of
-                  art.</v-list-item-subtitle
-                >
-              </NuxtLink>
-              <v-list-item-subtitle
-                ><v-chip label outlined class="mr-2">Photography</v-chip
-                ><v-chip label outlined class="mr-2"
-                  >Travel</v-chip
-                ></v-list-item-subtitle
-              >
-            </v-list-item-content>
-            <v-list-item-avatar
-              tile
-              size="160"
-              color="grey"
-              class="d-none d-lg-flex"
-            >
-              <img src="/work02.jpg" alt="work#02" />
-            </v-list-item-avatar>
-          </v-list-item>
-        </v-card>
+        <organisms-card-links />
       </v-col>
     </v-row>
   </v-container>
