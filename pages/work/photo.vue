@@ -83,6 +83,9 @@ export default {
       ],
     }
   },
+  head: () => ({
+    title: 'gallery of travel photography',
+  }),
 }
 </script>
 <style scoped>

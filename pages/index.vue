@@ -46,6 +46,9 @@
 <script>
 export default {
   name: 'IndexPage',
+  head: () => ({
+    title: 'portfolio site',
+  }),
   methods: {
     linkToOtherWindow(url) {
       window.open(url, '_blank')

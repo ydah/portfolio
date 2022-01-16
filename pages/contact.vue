@@ -67,6 +67,9 @@ export default {
     email: '',
     message: '',
   }),
+  head: () => ({
+    title: 'contact page',
+  }),
 }
 </script>
 

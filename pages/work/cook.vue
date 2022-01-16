@@ -26,6 +26,9 @@ export default {
       contents: [],
     }
   },
+  head: () => ({
+    title: 'recipe books and food essays',
+  }),
   async mounted() {
     this.contents = await this.$axios.$get('/.netlify/functions/note')
   },

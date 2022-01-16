@@ -34,5 +34,8 @@ export default {
     const posts = await $content('posts').sortBy('createdAt', 'desc').fetch()
     return { posts }
   },
+  head: () => ({
+    title: 'blog',
+  }),
 }
 </script>
