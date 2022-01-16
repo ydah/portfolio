@@ -1,5 +1,5 @@
 <template>
-  <v-component fluid>
+  <v-container fluid>
     <v-card
       v-for="(content, index) in contents"
       :key="index"
@@ -36,7 +36,7 @@
         </v-list-item-avatar>
       </v-list-item>
     </v-card>
-  </v-component>
+  </v-container>
 </template>
 
 <script>
