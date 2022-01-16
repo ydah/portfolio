@@ -11,6 +11,6 @@
 
 <script>
 export default {
-  name: 'ComponentsLayoutsFooter',
+  name: 'FooterComponent',
 }
 </script>

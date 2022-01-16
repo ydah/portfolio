@@ -5,7 +5,7 @@
         <Nuxt />
       </v-container>
     </v-main>
-    <layouts-footer />
+    <organisms-footer />
   </v-app>
 </template>
 
