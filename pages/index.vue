@@ -43,7 +43,7 @@
               <NuxtLink to="/work/cook" class="card-link">
                 <div class="text-overline mb-4">WORK#01</div>
                 <v-list-item-title class="text-h5 mb-1"
-                  >Recipe books and food-themed essays</v-list-item-title
+                  >Recipe books and food essays</v-list-item-title
                 >
                 <v-list-item-subtitle
                   >I publish recipes for dishes that I make in my daily life. I
