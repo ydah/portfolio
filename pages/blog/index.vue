@@ -15,7 +15,7 @@
                 <v-list-item-subtitle>{{
                   post.description
                 }}</v-list-item-subtitle>
-                <v-list-item-subtitle>Tag</v-list-item-subtitle>
+                <v-list-item-subtitle></v-list-item-subtitle>
               </v-list-item-content>
               <v-list-item-avatar tile size="80" color="grey"
                 ><img
