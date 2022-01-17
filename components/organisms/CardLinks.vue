@@ -8,13 +8,13 @@
     >
       <v-list-item three-line>
         <v-list-item-content>
-          <NuxtLink :to="content.link" class="card-link">
+          <nuxt-link :to="content.link" class="card-link">
             <div class="text-overline mb-4">WORK#0{{ index + 1 }}</div>
             <v-list-item-title class="text-h5 mb-1">{{
               content.title
             }}</v-list-item-title>
             <v-list-item-subtitle>{{ content.overview }}</v-list-item-subtitle>
-          </NuxtLink>
+          </nuxt-link>
           <v-list-item-subtitle
             ><v-chip
               v-for="(tag, i) in content.tags"
