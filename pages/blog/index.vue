@@ -17,7 +17,12 @@
                 }}</v-list-item-subtitle>
                 <v-list-item-subtitle>Tag</v-list-item-subtitle>
               </v-list-item-content>
-              <v-list-item-avatar tile size="80" color="grey" />
+              <v-list-item-avatar tile size="80" color="grey"
+                ><img
+                  v-if="post.eye_catch"
+                  :src="post.eye_catch"
+                  alt="eye catch"
+              /></v-list-item-avatar>
             </v-list-item>
           </nuxt-link>
         </v-card>
