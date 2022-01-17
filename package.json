@@ -25,7 +25,7 @@
     "@nuxt/content": "^1.15.1",
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/date-fns": "^1.5.0",
-    "core-js": "^3.19.3",
+    "core-js": "^3.20.3",
     "netlify-lambda": "^2.0.15",
     "nuxt": "^2.15.8",
     "vee-validate": "^3.4.14",
