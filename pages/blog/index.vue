@@ -3,7 +3,7 @@
     <v-row>
       <v-col v-for="post in posts" :key="post.slug">
         <v-card class="mx-auto" max-width="344" outlined>
-          <nuxt-link :to="'/blog/posts/' + post.slug">
+          <nuxt-link :to="'/blog/posts/' + post.slug" class="card-link">
             <v-list-item three-line>
               <v-list-item-content>
                 <div class="text-overline mb-4">
@@ -44,3 +44,17 @@ export default {
   }),
 }
 </script>
+
+<style lang="scss" scoped>
+a.card-link {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(0 0 0 / 87%);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a.card-link:hover {
+  text-decoration: underline;
+}
+</style>
