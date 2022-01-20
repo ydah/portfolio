@@ -16,15 +16,11 @@
             <v-list-item-subtitle>{{ content.overview }}</v-list-item-subtitle>
           </nuxt-link>
           <v-list-item-subtitle
-            ><v-chip
+            ><atoms-v-chip
               v-for="(tag, i) in content.tags"
               :key="i"
-              label
-              outlined
-              class="mr-2"
-              >{{ tag }}</v-chip
-            ></v-list-item-subtitle
-          >
+              :label="tag"
+          /></v-list-item-subtitle>
         </v-list-item-content>
         <v-list-item-avatar
           tile
