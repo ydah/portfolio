@@ -22,14 +22,10 @@
               :label="tag"
           /></v-list-item-subtitle>
         </v-list-item-content>
-        <v-list-item-avatar
-          tile
-          size="160"
-          color="grey"
-          class="d-none d-lg-flex"
-        >
-          <img :src="`/work0${index + 1}.jpg`" :alt="`work#0${index + 1}`" />
-        </v-list-item-avatar>
+        <atoms-v-list-item-avatar
+          :src="`/work0${index + 1}.jpg`"
+          :alt="`work#0${index + 1}`"
+        />
       </v-list-item>
     </v-card>
   </v-container>
