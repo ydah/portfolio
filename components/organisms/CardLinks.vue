@@ -16,24 +16,16 @@
             <v-list-item-subtitle>{{ content.overview }}</v-list-item-subtitle>
           </nuxt-link>
           <v-list-item-subtitle
-            ><v-chip
+            ><atoms-v-chip
               v-for="(tag, i) in content.tags"
               :key="i"
-              label
-              outlined
-              class="mr-2"
-              >{{ tag }}</v-chip
-            ></v-list-item-subtitle
-          >
+              :label="tag"
+          /></v-list-item-subtitle>
         </v-list-item-content>
-        <v-list-item-avatar
-          tile
-          size="160"
-          color="grey"
-          class="d-none d-lg-flex"
-        >
-          <img :src="`/work0${index + 1}.jpg`" :alt="`work#0${index + 1}`" />
-        </v-list-item-avatar>
+        <atoms-v-list-item-avatar
+          :src="`/work0${index + 1}.jpg`"
+          :alt="`work#0${index + 1}`"
+        />
       </v-list-item>
     </v-card>
   </v-container>
