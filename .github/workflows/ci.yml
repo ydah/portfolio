@@ -50,3 +50,10 @@ jobs:
 
       - name: Run tests 🧪
         run: yarn test
+
+      - name: Upload codecov ☔️
+        uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          directory: ./coverage/
+          fail_ci_if_error: true
