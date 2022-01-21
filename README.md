@@ -1,4 +1,4 @@
-# ydah portfolio [![ci](https://github.com/ydah/portfolio/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ydah/portfolio/actions/workflows/ci.yml)
+# ydah portfolio [![ci](https://github.com/ydah/portfolio/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ydah/portfolio/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/ydah/portfolio/branch/main/graph/badge.svg?token=26BZYIY060)](https://codecov.io/gh/ydah/portfolio)
 
 ## Build Setup
 
