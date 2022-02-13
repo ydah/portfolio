@@ -126,7 +126,6 @@ h1.title {
 
 .hover-effect:hover .overlay {
   opacity: 1;
-  filter: alpha(opacity=100);
   transform: scale(1);
 }
 
@@ -149,7 +148,6 @@ h1.title {
   color: #fff;
   padding: 1em 0;
   opacity: 0;
-  filter: alpha(opacity=0);
   transition: opacity 0.35s, transform 0.35s;
   transform: translate3d(0, -100%, 0);
 }
@@ -159,7 +157,6 @@ h1.title {
   color: #fff;
   padding: 1em 0;
   opacity: 0;
-  filter: alpha(opacity=0);
   transition: opacity 0.35s, transform 0.35s;
   transform: translate3d(0, 100%, 0);
 }
@@ -168,7 +165,6 @@ h1.title {
 .hover-effect:hover p,
 .hover-effect:hover h2 {
   opacity: 1;
-  filter: alpha(opacity=100);
   transform: translate3d(0, 0, 0);
 }
 </style>
