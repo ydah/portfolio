@@ -91,3 +91,6 @@ sw.*
 
 # netlify build output
 functions/*.js
+
+.nuxt-storybook
+storybook-static
