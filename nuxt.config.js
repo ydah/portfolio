@@ -4,10 +4,7 @@ export default {
   target: 'static',
   head: {
     titleTemplate: 'Yudai TAKADA/ydah - %s',
-    htmlAttrs: {
-      lang: 'ja',
-      prefix: 'og: http://ogp.me/ns#',
-    },
+    htmlAttrs: { lang: 'ja', prefix: 'og: http://ogp.me/ns#' },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -69,15 +66,11 @@ export default {
   generate: { fallback: true },
   telemetry: false,
   content: {},
-  vuetify: {
-    customVariables: ['~/assets/variables.scss'],
-  },
+  vuetify: { customVariables: ['~/assets/variables.scss'] },
   build: {
     transpile: ['vee-validate/dist/rules'],
   },
   googleFonts: {
-    families: {
-      'M PLUS 1p': true,
-    },
+    families: { 'M PLUS 1p': true },
   },
 }
