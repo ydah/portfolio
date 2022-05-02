@@ -55,7 +55,7 @@
     "husky": "^7.0.4",
     "jest": "^28.0.3",
     "lint-staged": "^12.4.1",
-    "postcss": "^8.4.11",
+    "postcss": "^8.4.13",
     "postcss-html": "^1.4.1",
     "prettier": "^2.6.2",
     "stylelint": "^14.8.1",
