@@ -24,3 +24,9 @@ article {
   font-family: 'Roboto', 'M PLUS 1p', sans-serif;
 }
 </style>
+
+<style lang="scss">
+img {
+  max-width: 400px;
+}
+</style>
