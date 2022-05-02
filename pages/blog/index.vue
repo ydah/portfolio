@@ -7,7 +7,7 @@
             <v-list-item three-line>
               <v-list-item-content>
                 <div class="text-overline mb-4">
-                  {{ $dateFns.format(new Date(post.created_at), 'yyyy/MM/dd') }}
+                  {{ $dateFns.format(new Date(post.published), 'yyyy/MM/dd') }}
                 </div>
                 <v-list-item-title class="text-h5 mb-1">{{
                   post.title
@@ -36,7 +36,7 @@ export default {
   name: 'BlogPosts',
   layout: 'blog',
   async asyncData({ $content }) {
-    const posts = await $content('posts').sortBy('createdAt', 'desc').fetch()
+    const posts = await $content('posts').sortBy('published', 'desc').fetch()
     return { posts }
   },
   head: () => ({
