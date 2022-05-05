@@ -50,7 +50,7 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   css: [{ src: '~assets/css/styles.scss' }],
-  plugins: ['@/plugins/vee-validate'],
+  plugins: ['@/plugins/vee-validate', '@/plugins/prism'],
   components: true,
   buildModules: [
     '@nuxtjs/eslint-module',

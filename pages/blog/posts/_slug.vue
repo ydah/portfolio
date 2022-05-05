@@ -7,6 +7,8 @@
 </template>
 
 <script>
+import Prism from '@/plugins/prism'
+
 export default {
   layout: 'blog',
   async asyncData({ $content, params }) {
@@ -16,6 +18,9 @@ export default {
   head: () => ({
     title: 'blog',
   }),
+  mounted() {
+    Prism.highlightAll()
+  },
 }
 </script>
 
