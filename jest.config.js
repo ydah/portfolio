@@ -16,5 +16,5 @@ module.exports = {
   ],
   coverageDirectory: './coverage/',
   coverageReporters: ['json', 'text-lcov', 'lcov'],
-  testEnvironment: 'jsdom',
+  testEnvironment: 'jest-environment-jsdom',
 }
