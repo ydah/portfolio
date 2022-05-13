@@ -27,6 +27,7 @@ export default {
 <style lang="scss" scoped>
 article {
   font-family: 'Roboto', 'M PLUS 1p', sans-serif;
+  font-weight: 800 !important;
 }
 </style>
 

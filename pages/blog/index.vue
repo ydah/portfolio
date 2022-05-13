@@ -2,7 +2,7 @@
   <v-container>
     <v-list two-line>
       <v-list-item v-for="post in posts" :key="post.index">
-        <nuxt-link :to="'/blog/posts/' + post.slug" class="card-link">
+        <nuxt-link :to="'/blog/posts/' + post.slug" class="post-link">
           <v-list-item-content>
             <div class="text-overline">
               {{ $dateFns.format(new Date(post.published), 'yyyy/MM/dd') }}
@@ -32,7 +32,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-a.card-link {
+a.post-link {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: rgb(0 0 0 / 87%);
@@ -40,7 +40,7 @@ a.card-link {
   transition: 0.3s;
 }
 
-a.card-link:hover {
+a.post-link:hover {
   text-decoration: underline;
 }
 </style>

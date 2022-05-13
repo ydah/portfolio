@@ -3,7 +3,9 @@
     <v-main>
       <v-app-bar color="white" elevation="0" class="text-center"
         ><v-spacer />
-        <h1 class="page__title">ydah blog.</h1>
+        <nuxt-link :to="'/blog'" class="title">
+          <h1 class="page__title">ydah blog.</h1>
+        </nuxt-link>
         <v-spacer
       /></v-app-bar>
       <v-container>
@@ -36,5 +38,13 @@ h1.page__title,
 .footer__text {
   font-family: 'AntroVectra';
   font-weight: 300;
+}
+
+a.title {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(0 0 0 / 87%);
+  text-decoration: none;
+  transition: 0.3s;
 }
 </style>
