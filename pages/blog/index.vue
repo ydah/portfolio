@@ -4,13 +4,12 @@
       <v-list-item v-for="post in posts" :key="post.index">
         <nuxt-link :to="'/blog/posts/' + post.slug" class="card-link">
           <v-list-item-content>
-            <div class="text-overline mb-0">
+            <div class="text-overline">
               {{ $dateFns.format(new Date(post.published), 'yyyy/MM/dd') }}
             </div>
             <v-list-item-title class="text-h5 mb-1">{{
               post.title
             }}</v-list-item-title>
-            <v-list-item-subtitle>{{ post.tag }}</v-list-item-subtitle>
           </v-list-item-content>
         </nuxt-link>
       </v-list-item>
