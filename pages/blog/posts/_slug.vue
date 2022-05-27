@@ -26,12 +26,17 @@ export default {
 
 <style lang="scss" scoped>
 article {
-  font-family: 'Roboto', 'M PLUS 1p', sans-serif;
-  font-weight: 800 !important;
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight: 500 !important;
 }
 </style>
 
 <style lang="scss">
+p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
 img {
   max-width: 400px;
 }

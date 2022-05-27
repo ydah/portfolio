@@ -43,4 +43,8 @@ a.post-link {
 a.post-link:hover {
   text-decoration: underline;
 }
+
+.text-h5 {
+  font-family: 'M PLUS 1p', sans-serif !important;
+}
 </style>
