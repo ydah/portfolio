@@ -4,10 +4,10 @@
       <v-list-item v-for="post in posts" :key="post.index">
         <nuxt-link :to="'/blog/posts/' + post.slug" class="post-link">
           <v-list-item-content>
-            <div class="text-overline">
+            <div class="text-overline time">
               {{ $dateFns.format(new Date(post.published), 'yyyy/MM/dd') }}
             </div>
-            <v-list-item-title class="text-h5 mb-1">{{
+            <v-list-item-title class="text-h5 title">{{
               post.title
             }}</v-list-item-title>
           </v-list-item-content>
@@ -44,7 +44,12 @@ a.post-link:hover {
   text-decoration: underline;
 }
 
-.text-h5 {
+.title {
+  font-size: 16px !important;
   font-family: 'M PLUS 1p', sans-serif !important;
+}
+
+.time {
+  font-size: 0.8rem !important;
 }
 </style>
