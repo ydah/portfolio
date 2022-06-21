@@ -38,7 +38,11 @@ export default {
         property: 'og:description',
         content: 'This page shows the portfolio of software engineer ydah.',
       },
-      { hid: 'og:image', property: 'og:image', content: '/ogp.jpg' },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://ydah.netlify.app/ogp.png',
+      },
 
       {
         hid: 'twitter:card',

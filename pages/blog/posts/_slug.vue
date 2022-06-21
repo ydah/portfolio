@@ -17,9 +17,6 @@ export default {
     const post = await $content('posts', params.slug).fetch()
     return { post }
   },
-  head: () => ({
-    title: 'blog',
-  }),
   mounted() {
     Prism.highlightAll()
   },
