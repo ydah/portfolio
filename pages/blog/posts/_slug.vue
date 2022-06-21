@@ -8,8 +8,10 @@
 
 <script>
 import Prism from '@/plugins/prism'
+import Meta from '~/assets/mixins/meta'
 
 export default {
+  mixins: [Meta],
   layout: 'blog',
   async asyncData({ $content, params }) {
     const post = await $content('posts', params.slug).fetch()
