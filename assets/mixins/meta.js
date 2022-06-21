@@ -7,7 +7,7 @@ export default {
         url: '',
       },
       base: `https://ydah.netlify.app`,
-      ogbase: `https://ydah.netlify.app/blog/posts/`,
+      ogbase: `https://ydah.netlify.app/posts/`,
     }
   },
   head() {
