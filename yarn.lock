@@ -1358,13 +1358,6 @@
     terminal-link "^2.0.0"
     v8-to-istanbul "^9.0.1"
 
-"@jest/schemas@^28.1.3":
-  version "28.1.3"
-  resolved "https://registry.yarnpkg.com/@jest/schemas/-/schemas-28.1.3.tgz#ad8b86a66f11f33619e3d7e1dcddd7f2d40ff905"
-  integrity sha512-/l/VWsdt/aBXgjshLWOFyFt3IVdYypu5y2Wn2rOO1un6nkqIn8SLXzgIMYXFyYsRWDyF5EthmKJMIdJvk08grg==
-  dependencies:
-    "@sinclair/typebox" "^0.24.1"
-
 "@jest/schemas@^29.0.0":
   version "29.0.0"
   resolved "https://registry.yarnpkg.com/@jest/schemas/-/schemas-29.0.0.tgz#5f47f5994dd4ef067fb7b4188ceac45f77fe952a"
@@ -1452,18 +1445,6 @@
     "@types/istanbul-reports" "^3.0.0"
     "@types/node" "*"
     "@types/yargs" "^15.0.0"
-    chalk "^4.0.0"
-
-"@jest/types@^28.1.3":
-  version "28.1.3"
-  resolved "https://registry.yarnpkg.com/@jest/types/-/types-28.1.3.tgz#b05de80996ff12512bc5ceb1d208285a7d11748b"
-  integrity sha512-RyjiyMUZrKz/c+zlMFO1pm70DcIlST8AeWTkoUdZevew44wcNZQHsEVOiCVtgVnlFFD82FPaXycys58cf2muVQ==
-  dependencies:
-    "@jest/schemas" "^28.1.3"
-    "@types/istanbul-lib-coverage" "^2.0.0"
-    "@types/istanbul-reports" "^3.0.0"
-    "@types/node" "*"
-    "@types/yargs" "^17.0.8"
     chalk "^4.0.0"
 
 "@jest/types@^29.0.0":
@@ -7152,14 +7133,14 @@ eslint-plugin-node@^11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-nuxt@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-nuxt/-/eslint-plugin-nuxt-3.2.0.tgz#5fbe95c8c7784c071d39adc848a695ef5e91fb34"
-  integrity sha512-SWpmJALwagdrlMooajFX9IFxFEKdBxD+e4NFOVw9FGc22HQpNKdiljRHchS/3O5e2R7sPZYv8xdCtoordqIXFQ==
+eslint-plugin-nuxt@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-nuxt/-/eslint-plugin-nuxt-4.0.0.tgz#f124b05c9038207ffaae74e2741f4a2e87472bae"
+  integrity sha512-v3Vwdk8YKe52bAz8eSIDqQuTtfL/T1r9dSl1uhC5SyR5pgLxgKkQdxXVf/Bf6Ax7uyd9rHqiAuYVdqqDb7ILdA==
   dependencies:
-    eslint-plugin-vue "^8.5.0"
-    semver "^7.3.5"
-    vue-eslint-parser "^8.3.0"
+    eslint-plugin-vue "^9.4.0"
+    semver "^7.3.7"
+    vue-eslint-parser "^9.0.3"
 
 eslint-plugin-promise@^6.0.0:
   version "6.0.0"
@@ -7186,7 +7167,7 @@ eslint-plugin-unicorn@^42.0.0:
     semver "^7.3.5"
     strip-indent "^3.0.0"
 
-eslint-plugin-vue@^8.5.0, eslint-plugin-vue@^8.7.1:
+eslint-plugin-vue@^8.7.1:
   version "8.7.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-8.7.1.tgz#f13c53547a0c9d64588a675cc5ecc6ccaf63703f"
   integrity sha512-28sbtm4l4cOzoO1LtzQPxfxhQABararUb1JtqusQqObJpWX2e/gmVyeYVfepizPFne0Q5cILkYGiBoV36L12Wg==
@@ -9969,18 +9950,6 @@ jest-util@^26.6.2:
     graceful-fs "^4.2.4"
     is-ci "^2.0.0"
     micromatch "^4.0.2"
-
-jest-util@^28.1.3:
-  version "28.1.3"
-  resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-28.1.3.tgz#f4f932aa0074f0679943220ff9cbba7e497028b0"
-  integrity sha512-XdqfpHwpcSRko/C35uLYFM2emRAltIIKZiJ9eAmhjsj0CqZMa0p1ib0R5fWIqGhn1a103DebTbpqIaP1qCQ6tQ==
-  dependencies:
-    "@jest/types" "^28.1.3"
-    "@types/node" "*"
-    chalk "^4.0.0"
-    ci-info "^3.2.0"
-    graceful-fs "^4.2.9"
-    picomatch "^2.2.3"
 
 jest-util@^29.0.0:
   version "29.0.0"
@@ -16124,7 +16093,7 @@ vue-docgen-loader@^1.5.0:
     loader-utils "^1.2.3"
     querystring "^0.2.0"
 
-vue-eslint-parser@^8.0.1, vue-eslint-parser@^8.3.0:
+vue-eslint-parser@^8.0.1:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-8.3.0.tgz#5d31129a1b3dd89c0069ca0a1c88f970c360bd0d"
   integrity sha512-dzHGG3+sYwSf6zFBa0Gi9ZDshD7+ad14DGOdTLjruRVgZXe2J+DcZ9iUhyR48z5g1PqRa20yt3Njna/veLJL/g==
@@ -16137,7 +16106,7 @@ vue-eslint-parser@^8.0.1, vue-eslint-parser@^8.3.0:
     lodash "^4.17.21"
     semver "^7.3.5"
 
-vue-eslint-parser@^9.0.1:
+vue-eslint-parser@^9.0.1, vue-eslint-parser@^9.0.3:
   version "9.0.3"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-9.0.3.tgz#0c17a89e0932cc94fa6a79f0726697e13bfe3c96"
   integrity sha512-yL+ZDb+9T0ELG4VIFo/2anAOz8SvBdlqEnQnvJ3M7Scq56DvtjY0VY88bByRZB0D4J0u8olBcfrXTVONXsh4og==
