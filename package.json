@@ -31,9 +31,9 @@
     "nuxt": "^2.15.8",
     "prismjs": "^1.29.0",
     "vee-validate": "^3.4.14",
-    "vue": "^2.7.11",
+    "vue": "^2.7.13",
     "vue-server-renderer": "^2.7.12",
-    "vue-template-compiler": "^2.7.11",
+    "vue-template-compiler": "^2.7.13",
     "vuetify": "^2.6.11",
     "webpack": "4.46.0"
   },
