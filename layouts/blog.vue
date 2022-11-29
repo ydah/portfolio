@@ -12,7 +12,7 @@
         <Nuxt />
       </v-container>
     </v-main>
-    <v-footer color="white" elevation="0" absolute app>
+    <v-footer color="#121212" elevation="0" absolute app>
       <v-spacer />
       <span class="footer__text"
         >Copyright &copy; {{ new Date().getFullYear() }} - ydah</span
