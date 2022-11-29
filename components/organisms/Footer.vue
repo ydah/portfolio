@@ -1,5 +1,5 @@
 <template>
-  <v-footer color="white" padless flat>
+  <v-footer color="#121212" padless flat>
     <v-col class="text-center" cols="12">
       <small>
         <v-icon small>mdi-copyright</v-icon>
