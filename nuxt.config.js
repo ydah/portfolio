@@ -70,7 +70,10 @@ export default {
   generate: { fallback: true },
   telemetry: false,
   content: {},
-  vuetify: { customVariables: ['~/assets/variables.scss'] },
+  vuetify: {
+    customVariables: ['~/assets/variables.scss'],
+    theme: { dark: true },
+  },
   build: {
     transpile: ['vee-validate/dist/rules'],
   },

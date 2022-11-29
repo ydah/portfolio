@@ -70,7 +70,7 @@ a.content-link {
   -moz-osx-font-smoothing: grayscale;
   font-family: Audrey, sans-serif !important;
   font-weight: 100;
-  color: rgb(0 0 0 / 87%);
+  color: rgb(255 255 255 / 87%);
   text-decoration: none;
 }
 
@@ -81,7 +81,7 @@ a.content-link:hover {
 a.card-link {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: rgb(0 0 0 / 87%);
+  color: rgb(255 255 255 / 87%);
   text-decoration: none;
   transition: 0.3s;
 }

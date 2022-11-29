@@ -1,7 +1,7 @@
 <template>
   <v-app dark>
     <v-main>
-      <v-app-bar color="white" elevation="0" class="text-center"
+      <v-app-bar color="#121212" elevation="0" class="text-center"
         ><v-spacer />
         <nuxt-link :to="'/blog'" class="title">
           <h1 class="page__title">ydah blog.</h1>
@@ -43,7 +43,7 @@ h1.page__title,
 a.title {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: rgb(0 0 0 / 87%);
+  color: rgb(255 255 255 / 87%);
   text-decoration: none;
   transition: 0.3s;
 }
