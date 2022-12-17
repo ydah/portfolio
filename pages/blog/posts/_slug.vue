@@ -58,4 +58,12 @@ p {
 img {
   max-width: 400px;
 }
+
+.token.operator {
+  background-color: inherit !important;
+}
+
+div.nuxt-content-highlight > pre > code {
+  background-color: inherit !important;
+}
 </style>
