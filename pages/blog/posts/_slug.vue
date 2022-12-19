@@ -80,6 +80,12 @@ img {
   max-width: 700px;
 }
 
+@media screen and (max-width: 700px) {
+  img {
+    max-width: 100%;
+  }
+}
+
 .nuxt-content-highlight {
   margin-bottom: 3rem;
 }
