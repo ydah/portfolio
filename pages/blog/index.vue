@@ -32,6 +32,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.v-list-item__title {
+  white-space: normal;
+}
+
 a.post-link {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

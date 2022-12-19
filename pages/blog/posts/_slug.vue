@@ -50,6 +50,10 @@ article {
 </style>
 
 <style lang="scss">
+a {
+  word-break: break-all;
+}
+
 h1 {
   line-height: 1.3;
   margin-top: 0.8rem;
