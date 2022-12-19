@@ -50,13 +50,38 @@ article {
 </style>
 
 <style lang="scss">
-p {
+h1 {
+  line-height: 1.3;
+  margin-top: 0.8rem;
+}
+
+h2 {
+  margin-bottom: 0;
+  margin-top: 6rem;
+}
+
+h3 {
+  margin-top: 3rem;
+  font-size: 1.4rem;
+}
+
+ol,
+ul {
+  margin-bottom: 3rem;
+}
+
+p,
+li {
   font-size: 1.2rem;
   line-height: 1.8;
 }
 
 img {
-  max-width: 400px;
+  max-width: 700px;
+}
+
+.nuxt-content-highlight {
+  margin-bottom: 3rem;
 }
 
 .token.operator {
