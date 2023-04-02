@@ -8,14 +8,18 @@
           Hi there. I'm Yudai Takada. Born in 1992. Living in Osaka.
         </p>
         <p class="text-body-2">
-          I have been developing software for about 6 years.
+          I have been working as a software engineer for about 7 years.
         </p>
         <p class="text-body-2">
-          Currently, I am working as a server-side engineer, mainly using Ruby
-          on Rails.
+          I'm also an open-source software programmer and a committer for
+          <a href="https://github.com/rubocop/rubocop-capybara" target="_blank">
+            RuboCop Capybara
+          </a>
+          and Rubyist.
         </p>
         <p class="text-body-2">
-          I'm also personal working as a culinary researcher and photographer.
+          My hobbies are photography and cooking. I also share some photography
+          and cooking recipes on this page.
         </p>
         <v-divider class="my-5" />
         <NuxtLink to="/blog" class="content-link mr-5">Blog</NuxtLink>
