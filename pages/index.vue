@@ -27,6 +27,13 @@
         <v-divider class="my-5" />
         <NuxtLink to="/blog" class="content-link mr-5">Blog</NuxtLink>
         <NuxtLink to="/contact" class="content-link mr-5">Contact</NuxtLink>
+        <a
+          href="https://speakerdeck.com/ydah"
+          class="content-link mr-5"
+          target="_blank"
+        >
+          Slide
+        </a>
         <v-btn icon @click="linkToOtherWindow('https://twitter.com/ydah_')">
           <v-icon>mdi-twitter</v-icon>
         </v-btn>
