@@ -11,11 +11,14 @@
           I have been working as a software engineer for about 9 years.
         </p>
         <p class="text-body-2">
-          I'm also an open-source software programmer and a committer for
+          <a href="https://github.com/rubocop/rubocop-rspec" target="_blank">
+            RuboCop RSpec
+          </a>
+          core team member,
           <a href="https://github.com/rubocop/rubocop-capybara" target="_blank">
             RuboCop Capybara
           </a>
-          and Rubyist.
+          author, Rubyist.
         </p>
         <p class="text-body-2">
           My hobbies are photography and cooking. I also share some photography
