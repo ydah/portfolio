@@ -8,7 +8,7 @@
           Hi there. I'm Yudai Takada. Born in 1992. Living in Osaka.
         </p>
         <p class="text-body-2">
-          I have been working as a software engineer for about 7 years.
+          I have been working as a software engineer for about 9 years.
         </p>
         <p class="text-body-2">
           I'm also an open-source software programmer and a committer for
