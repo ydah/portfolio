@@ -84,10 +84,22 @@ img {
   max-width: 700px;
 }
 
+iframe {
+  max-width: 700px;
+}
+
 @media screen and (max-width: 700px) {
   img {
     max-width: 100%;
   }
+
+  iframe {
+    max-width: 100%;
+  }
+}
+
+.container {
+  max-width: 900px;
 }
 
 .nuxt-content-highlight {
