@@ -37,11 +37,25 @@
         <v-btn icon @click="linkToOtherWindow('https://twitter.com/ydah_')">
           <v-icon>mdi-twitter</v-icon>
         </v-btn>
+        <v-btn icon @click="linkToOtherWindow('https://ruby.social/@ydah')">
+          <v-icon>mdi-mastodon</v-icon>
+        </v-btn>
+        <v-btn
+          icon
+          @click="
+            linkToOtherWindow('https://bsky.app/profile/ydah.bsky.social')
+          "
+        >
+          <v-icon>mdi-cloud-circle</v-icon>
+        </v-btn>
         <v-btn
           icon
           @click="linkToOtherWindow('https://www.instagram.com/ydah__/')"
         >
           <v-icon>mdi-instagram</v-icon>
+        </v-btn>
+        <v-btn icon @click="linkToOtherWindow('https://github.com/ydah/')">
+          <v-icon>mdi-github</v-icon>
         </v-btn>
         <v-divider class="my-5" />
         <v-img
