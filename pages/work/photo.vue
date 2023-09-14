@@ -120,7 +120,9 @@ h1.title {
   top: 10%;
   border-bottom: 1px solid #fff;
   border-top: 1px solid #fff;
-  transition: opacity 0.35s, transform 0.35s;
+  transition:
+    opacity 0.35s,
+    transform 0.35s;
   transform: scale(0, 1);
 }
 
@@ -148,7 +150,9 @@ h1.title {
   color: #fff;
   padding: 1em 0;
   opacity: 0;
-  transition: opacity 0.35s, transform 0.35s;
+  transition:
+    opacity 0.35s,
+    transform 0.35s;
   transform: translate3d(0, -100%, 0);
 }
 
@@ -157,7 +161,9 @@ h1.title {
   color: #fff;
   padding: 1em 0;
   opacity: 0;
-  transition: opacity 0.35s, transform 0.35s;
+  transition:
+    opacity 0.35s,
+    transform 0.35s;
   transform: translate3d(0, 100%, 0);
 }
 
