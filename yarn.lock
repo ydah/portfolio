@@ -8078,13 +8078,18 @@ find-cache-dir@^3.0.0, find-cache-dir@^3.3.1:
     make-dir "^3.0.2"
     pkg-dir "^4.1.0"
 
-find-cache-dir@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/find-cache-dir/-/find-cache-dir-4.0.0.tgz#a30ee0448f81a3990708f6453633c733e2f6eec2"
-  integrity sha512-9ZonPT4ZAK4a+1pUPVPZJapbi7O5qbbJPdYw/NOQWZZbVLdDTYM3A4R9z/DpAM08IDaFGsvPgiGZ82WEwUDWjg==
+find-cache-dir@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/find-cache-dir/-/find-cache-dir-5.0.0.tgz#69d1a9b77bbe39aea078dbede99d277a170d3079"
+  integrity sha512-OuWNfjfP05JcpAP3JPgAKUhWefjMRfI5iAoSsvE24ANYWJaepAtlSgWECSVEuRgSXpyNEc9DJwG/TZpgcOqyig==
   dependencies:
     common-path-prefix "^3.0.0"
     pkg-dir "^7.0.0"
+
+find-up-simple@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/find-up-simple/-/find-up-simple-1.0.0.tgz#21d035fde9fdbd56c8f4d2f63f32fd93a1cfc368"
+  integrity sha512-q7Us7kcjj2VMePAa02hDAF6d+MzsdsAWEwYyOpwUtlerRBkOEPBCRZrAV4XfcSN8fHAgaD0hP7miwoay6DCprw==
 
 find-up@^1.0.0:
   version "1.1.2"
@@ -12637,6 +12642,13 @@ pkg-dir@^7.0.0:
   integrity sha512-Ie9z/WINcxxLp27BKOCHGde4ITq9UklYKDzVo1nhk5sqGEXU3FpkwP5GM2voTGJkGd9B3Otl+Q4uwSOeSUtOBA==
   dependencies:
     find-up "^6.3.0"
+
+pkg-dir@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-8.0.0.tgz#8f3de8ba83d46b72a05c80bfd4e579f060fa91e2"
+  integrity sha512-4peoBq4Wks0riS0z8741NVv+/8IiTvqnZAr8QGgtdifrtpdXbNw/FxRS1l6NFqm4EMzuS0EDqNNx4XGaz8cuyQ==
+  dependencies:
+    find-up-simple "^1.0.0"
 
 pkg-types@^1.0.3:
   version "1.0.3"
@@ -17261,10 +17273,10 @@ yargs@^17.3.1:
     y18n "^5.0.5"
     yargs-parser "^21.1.1"
 
-yarn-audit-fix@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/yarn-audit-fix/-/yarn-audit-fix-10.0.0.tgz#a257cf692fbfb86ef9b45a7186f832616b2b4527"
-  integrity sha512-P2nxPk03fcZ6t2/u7CzTvtWTXC0uvIoQFcD/CFdCIoi7BlFIT2a2zFlRnY+2jPBfG9SS5FYplcAGLrPlgcB1Fw==
+yarn-audit-fix@^10.0.4:
+  version "10.0.4"
+  resolved "https://registry.yarnpkg.com/yarn-audit-fix/-/yarn-audit-fix-10.0.4.tgz#c466f4e742fb214e6ccd534eaeb40e923b702168"
+  integrity sha512-f/BTd/ZtnDbYeeJRrIRj9hN/KxsGiruUZN07pjeUxllZSFwQf0G/yXSkAAEc4vIEzYWh8hXzlmk7dA9d44DhkQ==
   dependencies:
     "@types/find-cache-dir" "^3.2.1"
     "@types/fs-extra" "^11.0.1"
@@ -17275,12 +17287,12 @@ yarn-audit-fix@^10.0.0:
     chalk "^5.3.0"
     commander "^10.0.1"
     fast-glob "^3.3.1"
-    find-cache-dir "^4.0.0"
+    find-cache-dir "^5.0.0"
     find-up "^6.3.0"
     fs-extra "^11.1.1"
     js-yaml "^4.1.0"
     lodash-es "^4.17.21"
-    pkg-dir "^7.0.0"
+    pkg-dir "^8.0.0"
     semver "^7.5.4"
     synp "^1.9.10"
 
