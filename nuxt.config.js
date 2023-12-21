@@ -1,5 +1,3 @@
-const baseDir = process.env.BASE_DIR || '/'
-
 export default {
   target: 'static',
   head: {
@@ -66,7 +64,7 @@ export default {
   modules: ['@nuxtjs/axios', '@nuxt/content', '@nuxtjs/proxy'],
   axios: { baseURL: '/', retry: true },
   proxy: { '/.netlify/functions/note': { target: 'http://localhost:9000' } },
-  router: { base: baseDir },
+  router: {},
   generate: { fallback: true },
   telemetry: false,
   content: {},
