@@ -50,7 +50,7 @@
     "babel-jest": "^29.6.4",
     "codecov": "^3.8.3",
     "eslint": "^8.47.0",
-    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-vue": "^9.17.0",
     "husky": "^8.0.3",
