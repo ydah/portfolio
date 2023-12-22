@@ -60,8 +60,8 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 0;
-  margin-top: 6rem;
+  margin-bottom: 0.5;
+  margin-top: 5rem;
 }
 
 h3 {
@@ -135,6 +135,10 @@ blockquote::before {
 
 blockquote::after {
   content: '';
+}
+
+.footnotes {
+  margin-top: 3rem;
 }
 
 .container {
