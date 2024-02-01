@@ -90,12 +90,8 @@ h2 {
 a {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: rgb(255 255 255 / 87%);
+  color: rgb(255 255 255 / 87%) !important;
   text-decoration: underline;
   transition: 0.3s;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 </style>
