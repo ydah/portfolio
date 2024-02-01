@@ -1,71 +1,60 @@
 <template>
-  <v-container>
-    <v-row>
-      <v-col md="6" sm="12">
-        <h2>タカダ ユウダイ (ydah)</h2>
-        <v-divider class="my-5" />
-        <p class="text-body-2">
-          Hi there. I'm Yudai Takada. Born in 1992. Living in Osaka.
-        </p>
-        <p class="text-body-2">
-          I have been working as a software engineer for about 9 years.
-        </p>
-        <p class="text-body-2">
-          <a href="https://github.com/rubocop/rubocop-rspec" target="_blank">
-            RuboCop RSpec
-          </a>
-          core team member,
-          <a href="https://github.com/rubocop/rubocop-capybara" target="_blank">
-            RuboCop Capybara
-          </a>
-          author, Rubyist.
-        </p>
-        <p class="text-body-2">
-          My hobbies are photography and cooking. I also share some photography
-          and cooking recipes on this page.
-        </p>
-        <v-divider class="my-5" />
-        <NuxtLink to="/blog" class="content-link mr-5">Blog</NuxtLink>
-        <NuxtLink to="/contact" class="content-link mr-5">Contact</NuxtLink>
-        <a
-          href="https://speakerdeck.com/ydah"
-          class="content-link mr-5"
-          target="_blank"
-        >
-          Slide
-        </a>
-        <v-btn icon @click="linkToOtherWindow('https://twitter.com/ydah_')">
-          <v-icon>mdi-twitter</v-icon>
-        </v-btn>
-        <v-btn icon @click="linkToOtherWindow('https://ruby.social/@ydah')">
-          <v-icon>mdi-mastodon</v-icon>
-        </v-btn>
-        <v-btn
-          icon
-          @click="
-            linkToOtherWindow('https://bsky.app/profile/ydah.bsky.social')
-          "
-        >
-          <v-icon>mdi-cloud-circle</v-icon>
-        </v-btn>
-        <v-btn
-          icon
-          @click="linkToOtherWindow('https://www.instagram.com/ydah__/')"
-        >
-          <v-icon>mdi-instagram</v-icon>
-        </v-btn>
-        <v-btn icon @click="linkToOtherWindow('https://github.com/ydah/')">
-          <v-icon>mdi-github</v-icon>
-        </v-btn>
-        <v-divider class="my-5" />
-        <v-img
-          class="image-link"
-          src="https://grass-graph.appspot.com/images/ydah.png?background=none"
-          @click="linkToOtherWindow('https://github.com/ydah')"
-        />
+  <v-container class="pt-10">
+    <h2>Yudai Takada (ydah)</h2>
+    <v-divider class="mt-1 mb-4" />
+    <p>
+      Yudai Takada is a Rubyist and software engineer. As a software engineer,
+      he has experience developing control and embedded applications, web
+      backends, and web frontends. Additionally, He is also an experienced Scrum
+      Master and has helped introduction of Scrum to teams. He is engaged mainly
+      in control and embedded software development at a software development
+      company in Osaka 2015-2021. Currently, he works at
+      <a href="https://andpad.co.jp/">ANDPAD Inc.</a> to re-architect Rails
+      applications and solve cross-cutting technical issues.
+    </p>
+    <p class="mb-10">→ More information (WIP)</p>
+    <h2>Links and Contacts</h2>
+    <v-divider class="mt-1 mb-4" />
+    <v-row class="mb-10">
+      <v-col class="col-6">
+        <v-icon>mdi-gmail</v-icon>
+        <a href="mailto:t.yudai92@gmail.com">t.yudai92@gmail.com</a>
       </v-col>
-      <v-col md="6" sm="12">
-        <organisms-card-links />
+      <v-col class="col-6">
+        <v-icon>mdi-rss</v-icon>
+        <a href="https://ydah.net/blog">ydah.net/blog</a>
+      </v-col>
+      <v-col class="col-6">
+        <v-icon>mdi-camera</v-icon>
+        <a href="https://ydah.net/work/photo">ydah.net/work/photo</a>
+      </v-col>
+      <v-col class="col-6">
+        <v-icon>mdi-chef-hat</v-icon>
+        <a href="https://ydah.net/work/cook">ydah.net/work/cook</a>
+      </v-col>
+      <v-col class="col-6">
+        <v-icon>mdi-github</v-icon>
+        <a href="https://github.com/ydah/">github.com/ydah</a>
+      </v-col>
+      <v-col class="col-6">
+        <v-icon>mdi-presentation</v-icon>
+        <a href="https://speakerdeck.com/ydah">speakerdeck.com/ydah</a>
+      </v-col>
+      <v-col class="col-6">
+        <v-icon>mdi-twitter</v-icon>
+        <a href="https://twitter.com/ydah_">twitter.com/ydah_</a>
+      </v-col>
+      <v-col class="col-6">
+        <v-icon>mdi-mastodon</v-icon>
+        <a href="https://ruby.social/@ydah">ruby.social/@ydah</a>
+      </v-col>
+      <v-col class="col-6">
+        <v-icon>mdi-cloud-circle</v-icon>
+        <a href="https://bsky.app/profile/ydah.bsky.social">ydah.bsky.social</a>
+      </v-col>
+      <v-col class="col-6">
+        <v-icon>mdi-instagram</v-icon>
+        <a href="https://instagram.com/ydah__/">instagram.com/ydah__</a>
       </v-col>
     </v-row>
   </v-container>
@@ -86,6 +75,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+p {
+  font-size: 1.1em !important;
+  line-height: 1.8em !important;
+}
+
 h2 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -93,32 +87,15 @@ h2 {
   font-weight: 100;
 }
 
-a.content-link {
+a {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: Audrey, sans-serif !important;
-  font-weight: 100;
   color: rgb(255 255 255 / 87%);
-  text-decoration: none;
-}
-
-a.content-link:hover {
   text-decoration: underline;
-}
-
-a.card-link {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: rgb(255 255 255 / 87%);
-  text-decoration: none;
   transition: 0.3s;
 }
 
-a.card-link:hover {
+a:hover {
   text-decoration: underline;
-}
-
-.image-link {
-  cursor: pointer;
 }
 </style>
