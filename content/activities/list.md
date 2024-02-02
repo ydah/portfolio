@@ -4,7 +4,7 @@
 
 ---
 
-[Talks](#talks) | [Articles](#articles) | [Affiliations](#affiliations) | [Contributing to conferences](#contributing-to-conferences) | [Skills](#skills) | [Professional career](#professional-career)
+[Works](#works) | [Talks](#talks) | [Articles](#articles) | [Affiliations](#affiliations) | [Contributing to conferences](#contributing-to-conferences) | [Skills](#skills) | [Certifications](#certifications) | [Professional career](#professional-career)
 
 ## Works
 
