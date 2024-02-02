@@ -30,7 +30,6 @@
     "netlify-lambda": "^2.0.16",
     "nuxt": "^2.16.3",
     "prismjs": "^1.29.0",
-    "vee-validate": "^3.4.15",
     "vue": "^2.7.14",
     "vue-server-renderer": "^2.7.14",
     "vue-template-compiler": "^2.7.14",
