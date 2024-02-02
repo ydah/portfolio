@@ -71,7 +71,7 @@ Author/Maintainer (2023.07 - present)
 ---
 
 - Yudai Takada: Menhir is here!  
-  Fukuoka.rb #333 (2023.11) [Slide](https://speakerdeck.com/ydah/menhir-is-here), [Event page](https://fukuokarb.connpass.com/event/302318/)
+  Fukuoka.rb #333 (2023.11) [Slide](https://speakerdeck.com/ydah/menhir-is-here), [Event page](https://fukuokarb.connpass.com/event/302318/)  
   Kyoto.rb Meetup (2023.11) [Slide](https://speakerdeck.com/ydah/menhir-is-here), [Event page](https://kyotorb.connpass.com/event/296972/)
 - Yudai Takada: ほんとにあった怖い話「slimに棲むもの」  
   Kaigi on Rails 2023 (非公式) 前夜祭 (2023.10) [Slide](https://speakerdeck.com/ydah/hontoniatutabu-ihua-slimniqi-mumonoo), [Event page](https://andpad.connpass.com/event/297702/)
