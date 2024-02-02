@@ -6,6 +6,66 @@
 
 [Talks](#talks) | [Articles](#articles) | [Affiliations](#affiliations) | [Contributing to conferences](#contributing-to-conferences) | [Skills](#skills) | [Professional career](#professional-career)
 
+## Works
+
+---
+
+### [RuboCop RSpec](https://github.com/rubocop/rubocop-rspec)
+
+Maintainer  
+RuboCop RSpec team (2023.05 - present)
+
+- [RSpec](https://rspec.info/)-specific analysis for your projects, as an extension to [RuboCop](https://github.com/rubocop/rubocop).
+
+### [RuboCop Capybara](https://github.com/rubocop/rubocop-capybara)
+
+Author/Maintainer (2022.12 - present)
+
+- [Capybara](https://teamcapybara.github.io/capybara)-specific analysis for your projects, as an extension to [RuboCop](https://github.com/rubocop/rubocop).
+
+### [RuboCop factory_bot](https://github.com/rubocop/rubocop-factory_bot)
+
+Maintainer (2022.05 - present)
+
+- [factory_bot](https://github.com/thoughtbot/factory_bot/blob/main/GETTING_STARTED.md)-specific analysis for your projects, as an extension to [RuboCop](https://github.com/rubocop/rubocop).
+
+### [Lrama](https://github.com/ruby/lrama)
+
+Contributor (2023.05 - present)
+
+- Lrama is LALR (1) parser generator written by Ruby. The first goal of this project is providing error tolerant parser for CRuby with minimal changes on CRuby parse.y file.
+- Implement Parameterizing rules.
+
+### [slim-embedded-minify](https://github.com/ydah/slim-embedded-minify)
+
+Author/Maintainer (2023.07 - present)
+
+- A slim file to minify embedded code. Remove comments and unnecessary blank lines in the [css or javascript embedding](https://github.com/slim-template/slim#embedded-engines-markdown-) of your Slim files when embedding them in HTML.
+
+### [slimembedcop](https://github.com/ydah/slimembedcop)
+
+Author/Maintainer (2023.09 - present)
+
+- [RuboCop](https://github.com/rubocop/rubocop) runner for [Ruby code embedded in Slim](https://github.com/slim-template/slim#embedded-engines-markdown-).
+
+### [RuboCop Committee](https://github.com/ydah/rubocop-committee)
+
+Author/Maintainer (2022.12 - present)
+
+- [Committee](https://github.com/interagent/committee)-specific analysis for your projects, as an extension to [RuboCop](https://github.com/rubocop/rubocop).
+
+### [rubocop-todo-regenerator](https://github.com/ydah/rubocop-todo-regenerator)
+
+Author/Maintainer (2022.09 - present)
+
+- [Custom action](https://docs.github.com/en//actions/creating-actions/about-custom-actions) to regenerate `.rubocop_todo.yml` and create Pull Request.
+
+### [rubocop-autocorrector](https://github.com/ydah/rubocop-autocorrector)
+
+Author/Maintainer (2023.07 - present)
+
+- [Custom action](https://docs.github.com/en//actions/creating-actions/about-custom-actions) to autocorrect rubocop offenses.
+
 ## Talks
 
 ---
@@ -76,6 +136,12 @@ January 2024 - present
 - Kyobashi.rb is a community where Rubyists from around Kyobashi, Osaka, Japan gather to talk about Ruby and technology.
 - [Click here](https://ruby-jp.slack.com/?redir=%2Farchives%2FC067J9337EZ%3Fname%3DC067J9337EZ) for our Slack channel.
 - Co-founded the community and organized the meetup.
+
+### [RuboCop Headquarters](https://github.com/orgs/rubocop/people)
+
+RuboCop RSpec team (2023.05 - present)
+
+- The team maintaining RuboCop RSpec and the RSpec Style Guide.
 
 ## Contributing to conferences
 
