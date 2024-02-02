@@ -25,7 +25,7 @@ Author/Maintainer (2022.12 - present)
 
 ### [RuboCop factory_bot](https://github.com/rubocop/rubocop-factory_bot)
 
-Maintainer (2022.05 - present)
+Maintainer (2023.05 - present)
 
 - [factory_bot](https://github.com/thoughtbot/factory_bot/blob/main/GETTING_STARTED.md)-specific analysis for your projects, as an extension to [RuboCop](https://github.com/rubocop/rubocop).
 

@@ -52,7 +52,7 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   css: [{ src: '~assets/css/styles.scss' }],
-  plugins: ['@/plugins/vee-validate', '@/plugins/prism'],
+  plugins: ['@/plugins/prism'],
   components: true,
   buildModules: [
     '@nuxtjs/eslint-module',
@@ -71,9 +71,6 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: { dark: true },
-  },
-  build: {
-    transpile: ['vee-validate/dist/rules'],
   },
   googleFonts: {
     families: { 'M PLUS 1p': true },
