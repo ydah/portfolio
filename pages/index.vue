@@ -2,7 +2,7 @@
   <v-container class="pt-10">
     <h2>Yudai Takada (ydah)</h2>
     <v-divider class="mt-1 mb-4" />
-    <p>
+    <p class="mb-1">
       Yudai Takada is a Rubyist and software engineer. As a software engineer,
       he has experience developing control and embedded applications, web
       backends, and web frontends. Additionally, He is also an experienced Scrum
@@ -12,7 +12,9 @@
       <a href="https://andpad.co.jp/">ANDPAD Inc.</a> to re-architect Rails
       applications and solve cross-cutting technical issues.
     </p>
-    <p class="mb-10">→ More information (WIP)</p>
+    <p class="mb-10">
+      <nuxt-link :to="'/activities'">→ More</nuxt-link>
+    </p>
     <h2>Links and Contacts</h2>
     <v-divider class="mt-1 mb-4" />
     <v-row class="mb-10">

@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <v-container class="pt-10">
     <NuxtContent :document="activities" />
-  </div>
+  </v-container>
 </template>
 
 <script>
@@ -33,15 +33,17 @@ a {
 h1 {
   line-height: 1.3;
   margin-top: 0.8rem;
+  font-size: 2.4rem;
 }
 
 h2 {
   margin-bottom: 0.5;
   margin-top: 5rem;
+  font-size: 1.8rem;
 }
 
 h3 {
-  margin-top: 3rem;
+  margin-bottom: 1rem;
   font-size: 1.4rem;
 }
 
@@ -111,6 +113,10 @@ blockquote::before {
 
 blockquote::after {
   content: '';
+}
+
+hr {
+  margin: 1rem 0;
 }
 
 .footnotes {
