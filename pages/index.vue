@@ -1,5 +1,5 @@
 <template>
-  <v-container class="pt-10">
+  <v-container>
     <h2>Yudai Takada (ydah)</h2>
     <v-divider class="mt-1 mb-4" />
     <p class="mb-1">
