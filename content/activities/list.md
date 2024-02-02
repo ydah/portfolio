@@ -139,7 +139,8 @@ January 2024 - present
 
 ### [RuboCop Headquarters](https://github.com/orgs/rubocop/people)
 
-RuboCop RSpec team (2023.05 - present)
+Member of RuboCop RSpec team  
+May 2023 - present
 
 - The team maintaining RuboCop RSpec and the RSpec Style Guide.
 
