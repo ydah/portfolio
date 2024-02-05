@@ -70,11 +70,13 @@ Author/Maintainer (2023.07 - present)
 
 ---
 
+- Yudai Takada: Ruby Parser Basics  
+  Kyobashi.rb Offline #1 (2024.02) [Slide](https://speakerdeck.com/ydah/ruby-parser-basics), [Event page](https://kyobashirb.connpass.com/event/307312/)
 - Yudai Takada: Menhir is here!  
   Fukuoka.rb #333 (2023.11) [Slide](https://speakerdeck.com/ydah/menhir-is-here), [Event page](https://fukuokarb.connpass.com/event/302318/)  
   Kyoto.rb Meetup (2023.11) [Slide](https://speakerdeck.com/ydah/menhir-is-here), [Event page](https://kyotorb.connpass.com/event/296972/)
 - Yudai Takada: ほんとにあった怖い話「slimに棲むもの」  
-  Kaigi on Rails 2023 (非公式) 前夜祭 (2023.10) [Slide](https://speakerdeck.com/ydah/hontoniatutabu-ihua-slimniqi-mumonoo), [Event page](https://andpad.connpass.com/event/297702/)
+  Kaigi on Rails 2023 (非公式) 前夜祭 (2023.10) [Slide](https://speakerdeck.com/ydah/hontoniatutabu-ihua-slimniqi-mumono), [Event page](https://andpad.connpass.com/event/297702/)
 - Yudai Takada: Handle Slim Safety  
   Osaka RubyKaigi03 (2023.09) [Slide](https://speakerdeck.com/ydah/handle-slim-safety), [Event page](https://regional.rubykaigi.org/osaka03/)
 - Yudai Takada: The Labyrinth of How to Write RSpec Pending Reasons  
@@ -129,7 +131,7 @@ September 2023 - present
 - Ruby Kansai is the primary community for Ruby events in the Kansai region of Japan.
 - Organized Osaka RubyKaigi03, created an event guideline page, and planned and managed LT events. [Blog post](https://ydah.net/blog/posts/20230914), [GitHub repo](https://github.com/rubykansai/osaka03)
 
-### [Kyobashi.rb](https://kyobashi.doorkeeper.jp/)
+### [Kyobashi.rb](https://kyobashirb.connpass.com/)
 
 Co-Founder  
 January 2024 - present
