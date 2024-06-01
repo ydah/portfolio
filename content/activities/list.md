@@ -10,6 +10,13 @@
 
 ---
 
+### [Lrama](https://github.com/ruby/lrama)
+
+Committer (2024.05 - present)
+
+- Lrama is LALR (1) parser generator written by Ruby. The first goal of this project is providing error tolerant parser for CRuby with minimal changes on CRuby parse.y file.
+- Implement Parameterizing rules.
+
 ### [RuboCop RSpec](https://github.com/rubocop/rubocop-rspec)
 
 Maintainer  
@@ -28,13 +35,6 @@ Author/Maintainer (2022.12 - present)
 Maintainer (2023.05 - present)
 
 - [factory_bot](https://github.com/thoughtbot/factory_bot/blob/main/GETTING_STARTED.md)-specific analysis for your projects, as an extension to [RuboCop](https://github.com/rubocop/rubocop).
-
-### [Lrama](https://github.com/ruby/lrama)
-
-Contributor (2023.05 - present)
-
-- Lrama is LALR (1) parser generator written by Ruby. The first goal of this project is providing error tolerant parser for CRuby with minimal changes on CRuby parse.y file.
-- Implement Parameterizing rules.
 
 ### [slim-embedded-minify](https://github.com/ydah/slim-embedded-minify)
 
