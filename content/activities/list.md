@@ -76,6 +76,10 @@ Author/Maintainer (2023.07 - present)
 
 ---
 
+- Yudai Takada: Does Ruby Parser dream of highly expressive grammar?  
+  RubyKaigi 2024 (2024.05) [Slide](https://speakerdeck.com/ydah/does-ruby-parser-dream-of-highly-expressive-grammar), [Event page](https://rubykaigi.org/2024/presentations/ydah_.html#day2)
+- Yudai Takada: Extracting from rubocop-rspec  
+  Kyobashi.rb Offline #2 (2024.03) [Slide](https://speakerdeck.com/ydah/extracting-from-rubocop-rspec), [Event page](https://kyobashirb.connpass.com/event/312137/)
 - Yudai Takada: Ruby Parser Basics  
   Kyobashi.rb Offline #1 (2024.02) [Slide](https://speakerdeck.com/ydah/ruby-parser-basics), [Event page](https://kyobashirb.connpass.com/event/307312/)
 - Yudai Takada: Menhir is here!  
@@ -100,6 +104,9 @@ Author/Maintainer (2023.07 - present)
 
 ---
 
+- RubyKaigi 2024 で登壇する hsbt と ydah に聞く Speaker になるまでの道のり  
+  ANDPAD_Engineers Stories (2024.04)  
+  https://en-jp.wantedly.com/companies/andpad/post_articles/900845
 - Yudai Takada: Ruby構文解析器 開発日録#2  
   ANDPAD Advent Calendar 2023 (2023.12)  
   https://ydah.net/blog/posts/20231224
@@ -152,6 +159,16 @@ Member of RuboCop RSpec team
 May 2023 - present
 
 - The team maintaining RuboCop RSpec and the RSpec Style Guide.
+
+### [interagent](https://github.com/interagent)
+
+Member of Committee Maintainers
+May 2024 - present
+
+### [rubyconfig](https://github.com/rubyconfig)
+
+Member of Maintainers
+April 2024 - present
 
 ## Contributing to conferences
 
