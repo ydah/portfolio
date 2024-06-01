@@ -24,6 +24,12 @@ RuboCop RSpec team (2023.05 - present)
 
 - [RSpec](https://rspec.info/)-specific analysis for your projects, as an extension to [RuboCop](https://github.com/rubocop/rubocop).
 
+### [Committee](https://github.com/interagent/committee)
+
+Maintainer (2024.05 - present)
+
+- A collection of middleware to help build services with JSON Schema, OpenAPI 2, OpenAPI 3.
+
 ### [RuboCop Capybara](https://github.com/rubocop/rubocop-capybara)
 
 Author/Maintainer (2022.12 - present)
