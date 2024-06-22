@@ -174,6 +174,8 @@ April 2024 - present
 
 ---
 
+- Osaka RubyKaigi04 Chief Organizer / Designer  
+  https://regional.rubykaigi.org/osaka04/
 - Osaka RubyKaigi03 Organizer  
   https://regional.rubykaigi.org/osaka03/
 - RubyKaigi 2023 Helper  
