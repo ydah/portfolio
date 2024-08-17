@@ -76,6 +76,8 @@ Author/Maintainer (2023.07 - present)
 
 ---
 
+- Yudai Takada: Modular semantic actions  
+  After RubyKaigi 2024 LR Parser Night w/ Asakusa.rb (2024.06) [Slide](https://speakerdeck.com/andpad/modular-semantic-actions), [Event page](https://andpad.connpass.com/event/321580/)
 - Yudai Takada: Does Ruby Parser dream of highly expressive grammar?  
   RubyKaigi 2024 (2024.05) [Slide](https://speakerdeck.com/ydah/does-ruby-parser-dream-of-highly-expressive-grammar), [Event page](https://rubykaigi.org/2024/presentations/ydah_.html#day2)
 - Yudai Takada: Extracting from rubocop-rspec  
