@@ -76,8 +76,14 @@ Author/Maintainer (2023.07 - present)
 
 ---
 
+- Yudai Takada: How does Lrama make the Ruby parser grammar G.O.A.T.?  
+  EuRuKo 2024 (2024.09) [Slide](https://speakerdeck.com/ydah/how-does-lrama-make-the-ruby-parser-grammar-g-dot-o-a-dot-t), [Event page](https://2024.euruko.org/speakers/yudai_takada)
+- Yudai Takada: The Sequel to a Dream of Ruby Parser's Grammar  
+  RubyKaigi 2024 follow up (2024.08) [Slide](https://speakerdeck.com/ydah/the-sequel-to-a-dream-of-ruby-parsers-grammar), [Event page](https://rhc.connpass.com/event/320709/)
 - Yudai Takada: Modular semantic actions  
   After RubyKaigi 2024 LR Parser Night w/ Asakusa.rb (2024.06) [Slide](https://speakerdeck.com/andpad/modular-semantic-actions), [Event page](https://andpad.connpass.com/event/321580/)
+- Yudai Takada: Kaigi Effect  
+  RubyKaigi 2024 KaigiEffect発表会 (2024.06) [Slide](https://speakerdeck.com/ydah/kaigi-effect), [Event page](https://kyobashirb.connpass.com/event/320687/)
 - Yudai Takada: Does Ruby Parser dream of highly expressive grammar?  
   RubyKaigi 2024 (2024.05) [Slide](https://speakerdeck.com/ydah/does-ruby-parser-dream-of-highly-expressive-grammar), [Event page](https://rubykaigi.org/2024/presentations/ydah_.html#day2)
 - Yudai Takada: Extracting from rubocop-rspec  
