@@ -1,4 +1,4 @@
-# Activity list of Yudai Takada
+# Activity list of Yudai Takada (@ydah)
 
 ## Index
 
