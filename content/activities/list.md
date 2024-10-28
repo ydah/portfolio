@@ -76,6 +76,8 @@ Author/Maintainer (2023.07 - present)
 
 ---
 
+- Yudai Takada: 作って理解する RDBMSのしくみ  
+  Kaigi on Rails 2024 (2024.10) [Slide](https://speakerdeck.com/ydah/zuo-tuteli-jie-suru-rdbmsnosikumi), [Event page](https://kaigionrails.org/2024/talks/ydah/)
 - Yudai Takada: How does Lrama make the Ruby parser grammar G.O.A.T.?  
   EuRuKo 2024 (2024.09) [Slide](https://speakerdeck.com/ydah/how-does-lrama-make-the-ruby-parser-grammar-g-dot-o-a-dot-t), [Event page](https://2024.euruko.org/speakers/yudai_takada)
 - Yudai Takada: The Sequel to a Dream of Ruby Parser's Grammar  
