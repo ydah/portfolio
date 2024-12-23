@@ -89,7 +89,7 @@ Author/Maintainer (2023.07 - present)
 - Yudai Takada: Kaigi Effect  
   RubyKaigi 2024 KaigiEffect発表会 (2024.06) [Slide](https://speakerdeck.com/ydah/kaigi-effect), [Event page](https://kyobashirb.connpass.com/event/320687/)
 - Yudai Takada: Does Ruby Parser dream of highly expressive grammar?  
-  RubyKaigi 2024 (2024.05) [Slide](https://speakerdeck.com/ydah/does-ruby-parser-dream-of-highly-expressive-grammar), [Event page](https://rubykaigi.org/2024/presentations/ydah_.html#day2)
+  RubyKaigi 2024 (2024.05) [Slide](https://speakerdeck.com/ydah/does-ruby-parser-dream-of-highly-expressive-grammar), [Event page](https://rubykaigi.org/2024/presentations/ydah_.html#day2), [Video](https://www.youtube.com/watch?v=Zs_Or0xUD1Q&ab_channel=RubyKaigi)
 - Yudai Takada: Extracting from rubocop-rspec  
   Kyobashi.rb Offline #2 (2024.03) [Slide](https://speakerdeck.com/ydah/extracting-from-rubocop-rspec), [Event page](https://kyobashirb.connpass.com/event/312137/)
 - Yudai Takada: Ruby Parser Basics  
