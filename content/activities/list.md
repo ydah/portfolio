@@ -76,6 +76,8 @@ Author/Maintainer (2023.07 - present)
 
 ---
 
+- Yudai Takada: 楽しいparse.y  
+  RubyWorld Conference 2024 (2024.12) [Slide](https://speakerdeck.com/ydah/the-joy-of-parse-y), [Event page](https://2024.rubyworld-conf.org/)
 - Yudai Takada: 作って理解する RDBMSのしくみ  
   Kaigi on Rails 2024 (2024.10) [Slide](https://speakerdeck.com/ydah/zuo-tuteli-jie-suru-rdbmsnosikumi), [Event page](https://kaigionrails.org/2024/talks/ydah/)
 - Yudai Takada: How does Lrama make the Ruby parser grammar G.O.A.T.?  
