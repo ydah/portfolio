@@ -116,6 +116,15 @@ Author/Maintainer (2023.07 - present)
 
 ---
 
+- アンドパッドはRubyWorld Conference 2024に協賛、登壇します！  
+  ANDPAD | TECH BLOG (2024.12)  
+  https://tech.andpad.co.jp/entry/2024/12/03/120000
+- 【令和最新版】カスタムCop 作成 ガイド Ruby 静的解析 RuboCop コードフォーマッタ Linter【AutoCorrect: contextual対応】  
+  ANDPAD | TECH BLOG (2024.12)  
+  https://tech.andpad.co.jp/entry/2024/12/03/100000
+- LR Parser Night w/ Asakusa.rb を永和システムマネジメントさんと共催します！  
+  ANDPAD | TECH BLOG (2024.06)  
+  https://tech.andpad.co.jp/entry/2024/06/20/100000
 - RubyKaigi 2024 で登壇する hsbt と ydah に聞く Speaker になるまでの道のり  
   ANDPAD_Engineers Stories (2024.04)  
   https://en-jp.wantedly.com/companies/andpad/post_articles/900845
