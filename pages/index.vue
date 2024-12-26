@@ -24,7 +24,7 @@
       </v-col>
       <v-col class="col-6">
         <v-icon>mdi-rss</v-icon>
-        <a href="https://ydah.net/blog">ydah.net/blog</a>
+        <a href="https://ydah.hatenablog.com/">ydah.hatenablog.com</a>
       </v-col>
       <v-col class="col-6">
         <v-icon>mdi-camera</v-icon>
