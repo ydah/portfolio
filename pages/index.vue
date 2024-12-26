@@ -3,12 +3,12 @@
     <h2>Yudai Takada (ydah)</h2>
     <v-divider class="mt-1 mb-4" />
     <p class="mb-1">
-      Yudai Takada is a Rubyist and software engineer. As a software engineer,
-      he has experience developing control and embedded applications, web
-      backends, and web frontends. Additionally, He is also an experienced Scrum
-      Master and has helped introduction of Scrum to teams. He is engaged mainly
-      in control and embedded software development at a software development
-      company in Osaka 2015-2021. Currently, he works at
+      Yudai Takada is a CRuby committer and software engineer. As a software
+      engineer, he has experience developing control and embedded applications,
+      web backends, and web frontends. Additionally, He is also an experienced
+      Scrum Master and has helped introduction of Scrum to teams. He is engaged
+      mainly in control and embedded software development at a software
+      development company in Osaka 2015-2021. Currently, he works at
       <a href="https://andpad.co.jp/">ANDPAD Inc.</a> to re-architect Rails
       applications and solve cross-cutting technical issues.
     </p>
