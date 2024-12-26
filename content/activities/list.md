@@ -10,6 +10,12 @@
 
 ---
 
+### [Ruby](https://github.com/ruby/ruby)
+
+Committer (2024.12 - present)
+
+- Working on improvements around the Ruby parser.
+
 ### [Lrama](https://github.com/ruby/lrama)
 
 Committer (2024.05 - present)
