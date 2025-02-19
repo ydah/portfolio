@@ -22,6 +22,8 @@ Committer (2024.05 - present)
 
 - Lrama is LALR (1) parser generator written by Ruby. The first goal of this project is providing error tolerant parser for CRuby with minimal changes on CRuby parse.y file.
 - Implement Parameterizing rules.
+- Implement Inlining.
+- Implement Syntax Diagram.
 
 ### [RuboCop RSpec](https://github.com/rubocop/rubocop-rspec)
 
@@ -29,6 +31,7 @@ Maintainer
 RuboCop RSpec team (2023.05 - present)
 
 - [RSpec](https://rspec.info/)-specific analysis for your projects, as an extension to [RuboCop](https://github.com/rubocop/rubocop).
+- I extracted RuboCop RSpec Rails and RuboCop factory_bot from RuboCop RSpec.
 
 ### [Committee](https://github.com/interagent/committee)
 
@@ -47,6 +50,12 @@ Author/Maintainer (2022.12 - present)
 Maintainer (2023.05 - present)
 
 - [factory_bot](https://github.com/thoughtbot/factory_bot/blob/main/GETTING_STARTED.md)-specific analysis for your projects, as an extension to [RuboCop](https://github.com/rubocop/rubocop).
+
+### [RuboCop RSpec Rails](https://github.com/rubocop/rubocop-rspec_rails)
+
+Maintainer (2024.05 - present)
+
+- [RSpec Rails](https://rspec.info/)-specific analysis for your projects, as an extension to [RuboCop](https://github.com/rubocop/rubocop).
 
 ### [slim-embedded-minify](https://github.com/ydah/slim-embedded-minify)
 
@@ -77,6 +86,18 @@ Author/Maintainer (2022.09 - present)
 Author/Maintainer (2023.07 - present)
 
 - [Custom action](https://docs.github.com/en//actions/creating-actions/about-custom-actions) to autocorrect rubocop offenses.
+
+### [radhound](https://github.com/ydah/redhound)
+
+Author/Maintainer (2024.11 - present)
+
+Pure Ruby packet analyzer. At this time, it is only guaranteed to work on Linux.
+
+### [railroad_diagrams](https://github.com/ydah/railroad_diagrams)
+
+Author/Maintainer (2025.1 - present)
+
+🛤️ A tiny Ruby+SVG library for drawing railroad syntax diagrams like JSON.org.
 
 ## Talks
 
