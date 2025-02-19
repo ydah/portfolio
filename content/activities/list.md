@@ -240,9 +240,9 @@ April 2024 - present
 
 ---
 
-- Programming languages: [Ruby](https://www.ruby-lang.org/en/), [C](https://www.open-std.org/jtc1/sc22/wg14/), [C++](https://isocpp.org/), [Java](https://www.oracle.com/java/), [Python](https://www.python.org/) and [TypeScript](https://www.typescriptlang.org/)
+- Programming languages: [Ruby](https://www.ruby-lang.org/en/), [C](https://www.open-std.org/jtc1/sc22/wg14/), [C++](https://isocpp.org/), [Java](https://www.oracle.com/java/), [Zig](https://ziglang.org/), [Python](https://www.python.org/) and [TypeScript](https://www.typescriptlang.org/)
 - Linux Distributions: [Ubuntu](https://ubuntu.com/), [CentOS](https://www.centos.org/), [Debian](https://www.debian.org/)
-- Web backend frameworks: [Ruby on Rails](https://rubyonrails.org/) and [Django](https://www.djangoproject.com/)
+- Web backend frameworks: [Ruby on Rails](https://rubyonrails.org/), [gruf](https://github.com/bigcommerce/gruf)(gRPC) and [Django](https://www.djangoproject.com/)
 - Web frontend frameworks: [Vue.js](https://vuejs.org/)(Nuxt.js)
 - Database: [MySQL](https://www.mysql.com/), [PostgreSQL](https://www.postgresql.org/)
 
