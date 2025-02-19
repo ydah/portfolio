@@ -91,13 +91,13 @@ Author/Maintainer (2023.07 - present)
 
 Author/Maintainer (2024.11 - present)
 
-Pure Ruby packet analyzer. At this time, it is only guaranteed to work on Linux.
+- Pure Ruby packet analyzer. At this time, it is only guaranteed to work on Linux.
 
 ### [railroad_diagrams](https://github.com/ydah/railroad_diagrams)
 
 Author/Maintainer (2025.1 - present)
 
-🛤️ A tiny Ruby+SVG library for drawing railroad syntax diagrams like JSON.org.
+- 🛤️ A tiny Ruby+SVG library for drawing railroad syntax diagrams like JSON.org.
 
 ## Talks
 
