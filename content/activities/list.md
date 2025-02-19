@@ -110,7 +110,7 @@ Author/Maintainer (2025.1 - present)
 - Yudai Takada: 作って理解する RDBMSのしくみ  
   Kaigi on Rails 2024 (2024.10) [Slide](https://speakerdeck.com/ydah/zuo-tuteli-jie-suru-rdbmsnosikumi), [Event page](https://kaigionrails.org/2024/talks/ydah/), [Video](https://www.youtube.com/watch?v=VOeu7s5ifQQ&t=1116s&ab_channel=KaigionRails)
 - Yudai Takada: How does Lrama make the Ruby parser grammar G.O.A.T.?  
-  EuRuKo 2024 (2024.09) [Slide](https://speakerdeck.com/ydah/how-does-lrama-make-the-ruby-parser-grammar-g-dot-o-a-dot-t), [Event page](https://2024.euruko.org/speakers/yudai_takada)
+  EuRuKo 2024 (2024.09) [Slide](https://speakerdeck.com/ydah/how-does-lrama-make-the-ruby-parser-grammar-g-dot-o-a-dot-t), [Event page](https://2024.euruko.org/speakers/yudai_takada), [Video](https://www.youtube.com/watch?v=7gGrNiufv54&t=899s&ab_channel=EuRuKo)
 - Yudai Takada: The Sequel to a Dream of Ruby Parser's Grammar  
   RubyKaigi 2024 follow up (2024.08) [Slide](https://speakerdeck.com/ydah/the-sequel-to-a-dream-of-ruby-parsers-grammar), [Event page](https://rhc.connpass.com/event/320709/)
 - Yudai Takada: Modular semantic actions  
@@ -145,6 +145,9 @@ Author/Maintainer (2025.1 - present)
 
 ---
 
+- 大統一プロダクト間連携を夢見た僕たちが歩いてきた道のりと未来の話をしよう  
+  ANDPAD | TECH BLOG (2024.12)  
+  https://tech.andpad.co.jp/entry/2024/12/24/140000
 - アンドパッドはRubyWorld Conference 2024に協賛、登壇します！  
   ANDPAD | TECH BLOG (2024.12)  
   https://tech.andpad.co.jp/entry/2024/12/03/120000
@@ -224,6 +227,8 @@ April 2024 - present
 
 ---
 
+- Kansai RubyKaigi08 Chief Organizer  
+  https://regional.rubykaigi.org/kansai08/
 - Osaka RubyKaigi04 Chief Organizer / Designer  
   https://regional.rubykaigi.org/osaka04/
 - Osaka RubyKaigi03 Organizer  
