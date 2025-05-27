@@ -233,11 +233,11 @@ April 2024 - present
 
 ---
 
-- Kansai RubyKaigi08 Chief Organizer  
+- KansaiRubyKaigi08 Chief Organizer  
   https://regional.rubykaigi.org/kansai08/
-- Osaka RubyKaigi04 Chief Organizer / Designer  
+- OsakaRubyKaigi04 Chief Organizer / Designer  
   https://regional.rubykaigi.org/osaka04/
-- Osaka RubyKaigi03 Organizer  
+- OsakaRubyKaigi03 Organizer  
   https://regional.rubykaigi.org/osaka03/
 - RubyKaigi 2023 Helper  
   https://rubykaigi.org/2023/about/
