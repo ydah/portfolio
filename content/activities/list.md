@@ -106,7 +106,7 @@ Author/Maintainer (2025.1 - present)
 - Yudai Takada: Rubyでつくるパケットキャプチャツール  
   東京Ruby会議12 前夜祭 (2025.01) [Slide](https://speakerdeck.com/ydah/packet-capture-tool-in-ruby), [Event page](https://connpass.com/event/339170/)
 - Yudai Takada: 楽しいparse.y  
-  RubyWorld Conference 2024 (2024.12) [Slide](https://speakerdeck.com/ydah/the-joy-of-parse-y), [Event page](https://2024.rubyworld-conf.org/)
+  RubyWorld Conference 2024 (2024.12) [Slide](https://speakerdeck.com/ydah/the-joy-of-parse-y), [Event page](https://2024.rubyworld-conf.org/), [Video](https://www.youtube.com/watch?v=buSqbQPrCGE&t=754s&ab_channel=RubyWorldConference)
 - Yudai Takada: 作って理解する RDBMSのしくみ  
   Kaigi on Rails 2024 (2024.10) [Slide](https://speakerdeck.com/ydah/zuo-tuteli-jie-suru-rdbmsnosikumi), [Event page](https://kaigionrails.org/2024/talks/ydah/), [Video](https://www.youtube.com/watch?v=VOeu7s5ifQQ&t=1116s&ab_channel=KaigionRails)
 - Yudai Takada: How does Lrama make the Ruby parser grammar G.O.A.T.?  
