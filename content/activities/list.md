@@ -103,6 +103,10 @@ Author/Maintainer (2025.1 - present)
 
 ---
 
+- Yudai Takada: Ruby on Railroad: The Power of Visualizing CFG  
+  RubyKaigi 2025 (2025.04) [Slide](https://speakerdeck.com/ydah/ruby-on-railroad-the-power-of-visualizing-cfg), [Event page](https://rubykaigi.org/2025/presentations/lt/), [Video](https://www.youtube.com/watch?v=9vPTXGzBjKI&ab_channel=RubyKaigi)
+- Yudai Takada: Dissecting and Reconstructing Ruby Syntactic Structures  
+  RubyKaigi 2025 (2025.04) [Slide](https://speakerdeck.com/ydah/dissecting-and-reconstructing-ruby-syntactic-structures), [Event page](https://rubykaigi.org/2025/presentations/ydah_.html#day2), [Video](https://www.youtube.com/watch?v=17xQKhpCmGs&ab_channel=RubyKaigi)
 - Yudai Takada: Rubyでつくるパケットキャプチャツール  
   東京Ruby会議12 前夜祭 (2025.01) [Slide](https://speakerdeck.com/ydah/packet-capture-tool-in-ruby), [Event page](https://connpass.com/event/339170/)
 - Yudai Takada: 楽しいparse.y  
