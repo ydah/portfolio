@@ -221,12 +221,12 @@ May 2023 - present
 
 ### [interagent](https://github.com/interagent)
 
-Member of Committee Maintainers
+Member of Committee Maintainers  
 May 2024 - present
 
 ### [rubyconfig](https://github.com/rubyconfig)
 
-Member of Maintainers
+Member of Maintainers  
 April 2024 - present
 
 ## Contributing to conferences
