@@ -103,6 +103,8 @@ Author/Maintainer (2025.1 - present)
 
 ---
 
+- Yudai Takada: LRパーサーはいいぞ  
+  Kernel/VM探検隊@関西 11回目 (2025.05) [Slide](https://speakerdeck.com/ydah/lrparser-is-good), [Event page](https://kernelvm.connpass.com/event/347564/), [Video](https://www.youtube.com/watch?v=zEClNYYPCCg&t=131s&ab_channel=KernelVM%E6%8E%A2%E6%A4%9C%E9%9A%8A)
 - Yudai Takada: Ruby on Railroad: The Power of Visualizing CFG  
   RubyKaigi 2025 (2025.04) [Slide](https://speakerdeck.com/ydah/ruby-on-railroad-the-power-of-visualizing-cfg), [Event page](https://rubykaigi.org/2025/presentations/lt/), [Video](https://www.youtube.com/watch?v=9vPTXGzBjKI&ab_channel=RubyKaigi)
 - Yudai Takada: Dissecting and Reconstructing Ruby Syntactic Structures  
