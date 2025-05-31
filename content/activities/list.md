@@ -233,6 +233,8 @@ April 2024 - present
 
 ---
 
+- PicoRuby OverflowKaigi Organizer & Designer  
+  https://naniwarb.github.io/picorubyoverflowkaigi/
 - KansaiRubyKaigi08 Chief Organizer  
   https://regional.rubykaigi.org/kansai08/
 - OsakaRubyKaigi04 Chief Organizer / Designer  
