@@ -87,7 +87,7 @@ Author/Maintainer (2023.07 - present)
 
 - [Custom action](https://docs.github.com/en//actions/creating-actions/about-custom-actions) to autocorrect rubocop offenses.
 
-### [radhound](https://github.com/ydah/redhound)
+### [redhound](https://github.com/ydah/redhound)
 
 Author/Maintainer (2024.11 - present)
 
