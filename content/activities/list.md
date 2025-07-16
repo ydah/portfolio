@@ -39,6 +39,12 @@ Maintainer (2024.05 - present)
 
 - A collection of middleware to help build services with JSON Schema, OpenAPI 2, OpenAPI 3.
 
+### [RSpec Sidekiq](https://github.com/wspurgin/rspec-sidekiq)
+
+Maintainer (2025.07 - present)
+
+- Simple testing of Sidekiq jobs via a collection of matchers and helpers.
+
 ### [RuboCop Capybara](https://github.com/rubocop/rubocop-capybara)
 
 Author/Maintainer (2022.12 - present)
@@ -233,9 +239,9 @@ April 2024 - present
 
 ---
 
-- PicoRuby OverflowKaigi Organizer & Designer  
+- PicoRuby OverflowKaigi Organizer / Designer  
   https://naniwarb.github.io/picorubyoverflowkaigi/
-- KansaiRubyKaigi08 Chief Organizer  
+- KansaiRubyKaigi08 Chief Organizer / Designer  
   https://regional.rubykaigi.org/kansai08/
 - OsakaRubyKaigi04 Chief Organizer / Designer  
   https://regional.rubykaigi.org/osaka04/
