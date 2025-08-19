@@ -109,6 +109,8 @@ Author/Maintainer (2025.1 - present)
 
 ---
 
+- Yudai Takada: Joy with 3D Graphics Using Ruby  
+  RubyConf Taiwan x COSCUP 2025 (2025.08) [Slide](https://speakerdeck.com/ydah/joy-with-3d-graphics-using-ruby), [Event page](https://2025.rubyconf.tw/)
 - Yudai Takada: 構文解析器入門  
   PHPカンファレンス関西2025 (2025.07) [Slide](https://speakerdeck.com/ydah/parser-basics-40766b3a-6e56-4b5e-bbb0-b77c09806158), [Event page](https://2025.kphpug.jp/)
 - Yudai Takada: LRパーサーはいいぞ  
