@@ -109,6 +109,8 @@ Author/Maintainer (2025.1 - present)
 
 ---
 
+- Yudai Takada: 構文解析器入門  
+  PHPカンファレンス関西2025 (2025.07) [Slide](https://speakerdeck.com/ydah/parser-basics-40766b3a-6e56-4b5e-bbb0-b77c09806158), [Event page](https://2025.kphpug.jp/)
 - Yudai Takada: LRパーサーはいいぞ  
   Kernel/VM探検隊@関西 11回目 (2025.05) [Slide](https://speakerdeck.com/ydah/lrparser-is-good), [Event page](https://kernelvm.connpass.com/event/347564/), [Video](https://www.youtube.com/watch?v=zEClNYYPCCg&t=131s&ab_channel=KernelVM%E6%8E%A2%E6%A4%9C%E9%9A%8A)
 - Yudai Takada: Ruby on Railroad: The Power of Visualizing CFG  
