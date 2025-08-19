@@ -157,6 +157,9 @@ Author/Maintainer (2025.1 - present)
 
 ---
 
+- 関西Ruby会議08 チーフオーガナイザーの ydah さんにタイムテーブルを解説してもらいました  
+  ANDPAD | TECH BLOG (2025.06)  
+  https://tech.andpad.co.jp/entry/2025/06/24/100000
 - 大統一プロダクト間連携を夢見た僕たちが歩いてきた道のりと未来の話をしよう  
   ANDPAD | TECH BLOG (2024.12)  
   https://tech.andpad.co.jp/entry/2024/12/24/140000
