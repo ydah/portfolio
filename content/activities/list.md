@@ -217,7 +217,8 @@ Member
 September 2023 - present
 
 - Ruby Kansai is the primary community for Ruby events in the Kansai region of Japan.
-- Organized Osaka RubyKaigi03, created an event guideline page, and planned and managed LT events. [Blog post](https://ydah.net/blog/posts/20230914), [GitHub repo](https://github.com/rubykansai/osaka03)
+- Chief organizer of OsakaRubyKaigi04, I organized and designed the event.
+- Organized OsakaRubyKaigi03, created an event guideline page, and planned and managed LT events. [Blog post](https://ydah.net/blog/posts/20230914), [GitHub repo](https://github.com/rubykansai/osaka03)
 
 ### [Kyobashi.rb](https://kyobashirb.connpass.com/)
 
