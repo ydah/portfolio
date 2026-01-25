@@ -92,5 +92,13 @@ sw.*
 # netlify build output
 functions/*.js
 
+# craze / vite outputs
+dist/
+frontend/dist/
+frontend/dist/.vite/
+
+# generated content
+content/data/note.json
+
 .nuxt-storybook
 storybook-static

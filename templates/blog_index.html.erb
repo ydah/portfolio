@@ -1,0 +1,108 @@
+<%
+  page_title = page['title'] || page[:title]
+  page_description = page['description'] || page[:description]
+  page_type = page['type'] || page[:type]
+  page_ogimage = page['ogimage'] || page[:ogimage]
+  page_path = page['path'] || ''
+  page_slug = page['slug'] || page[:slug]
+  page_url = if page_path.include?('content/posts/') && page_slug
+               "/blog/posts/#{page_slug}/"
+             elsif page_path.include?('content/activities/')
+               '/activities/'
+             else
+               relative = page_path.sub(%r{^content/?}, '').sub(/\.md$/, '')
+               relative = relative.sub(%r{(^|/)index$}, '\\1')
+               relative = '/' if relative.empty?
+               relative = "/#{relative}" unless relative.start_with?('/')
+               relative = relative.end_with?('/') ? relative : "#{relative}/"
+               relative
+             end
+%>
+<!DOCTYPE html>
+<html lang="<%= site['language'] || 'ja' %>">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+
+  <title><%= page_title ? "#{page_title} - #{site['title']}" : site['title'] %></title>
+
+  <meta name="description" content="<%= page_description || site['description'] %>">
+  <meta name="keywords" content="ydah,software,engineer,portfolio,ruby">
+
+  <meta property="og:site_name" content="<%= site['title'] %>">
+  <meta property="og:type" content="<%= page_type || 'website' %>">
+  <meta property="og:url" content="<%= site['url'] %><%= page_url %>">
+  <meta property="og:title" content="<%= page_title || site['title'] %>">
+  <meta property="og:description" content="<%= page_description || site['description'] %>">
+  <% if page_ogimage %>
+  <meta property="og:image" content="<%= site['url'] %>/assets/images/posts/<%= page_ogimage %>">
+  <% else %>
+  <meta property="og:image" content="<%= site['url'] %>/assets/images/ogp.png">
+  <% end %>
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@ydah_">
+
+  <link rel="icon" type="image/x-icon" href="<%= asset_path('favicon.ico') %>">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+
+  <%= vite_client_tag %>
+  <%= vite_js_tag 'src/main.js' %>
+</head>
+<body class="theme-dark min-h-screen flex flex-col">
+  <header class="site-header border-b">
+    <nav class="container mx-auto px-4 py-4 max-w-4xl">
+      <a href="<%= url_for('/') %>" class="text-xl font-light text-white hover:text-gray-300" style="font-family: 'Audrey', sans-serif;">
+        ydah.net
+      </a>
+    </nav>
+  </header>
+
+  <main class="container mx-auto px-4 py-8 max-w-4xl flex-1">
+    <div class="text-center mb-8">
+      <h1 class="text-4xl font-light tracking-wide" style="font-family: 'AntroVectra', sans-serif;">
+        ydah blog.
+      </h1>
+    </div>
+
+    <ul class="space-y-4">
+      <% posts = (collections['posts'] || collections[:posts] || []) %>
+      <% posts.sort_by { |p| p['date'] || p[:date] }.reverse.each do |post| %>
+        <% post_slug = post['slug'] || post[:slug] %>
+        <% post_url = post_slug ? "/blog/posts/#{post_slug}/" : nil %>
+      <li class="border-b border-gray-700 pb-4">
+        <% if post_url %>
+          <a href="<%= url_for(post_url) %>" class="block hover:bg-gray-800 p-2 rounded transition">
+            <time class="text-xs text-gray-500 block mb-1">
+              <%= format_date(post['date'] || post[:date], '%Y/%m/%d') %>
+            </time>
+            <h2 class="text-lg text-white hover:underline">
+              <%= post['title'] || post[:title] %>
+            </h2>
+          </a>
+        <% else %>
+          <div class="block p-2">
+            <time class="text-xs text-gray-500 block mb-1">
+              <%= format_date(post['date'] || post[:date], '%Y/%m/%d') %>
+            </time>
+            <h2 class="text-lg text-white">
+              <%= post['title'] || post[:title] %>
+            </h2>
+          </div>
+        <% end %>
+      </li>
+      <% end %>
+    </ul>
+  </main>
+
+  <footer class="site-footer border-t mt-auto">
+    <div class="container mx-auto px-4 py-4 max-w-4xl text-center text-gray-400">
+      <small>
+        &copy; <%= Time.now.year %> — ydah
+      </small>
+    </div>
+  </footer>
+</body>
+</html>

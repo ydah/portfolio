@@ -1,0 +1,107 @@
+<%
+  page_title = page['title'] || page[:title]
+  page_description = page['description'] || page[:description]
+  page_type = page['type'] || page[:type]
+  page_ogimage = page['ogimage'] || page[:ogimage]
+  page_path = page['path'] || ''
+  page_slug = page['slug'] || page[:slug]
+  page_url = if page_path.include?('content/posts/') && page_slug
+               "/blog/posts/#{page_slug}/"
+             elsif page_path.include?('content/activities/')
+               '/activities/'
+             else
+               relative = page_path.sub(%r{^content/?}, '').sub(/\.md$/, '')
+               relative = relative.sub(%r{(^|/)index$}, '\\1')
+               relative = '/' if relative.empty?
+               relative = "/#{relative}" unless relative.start_with?('/')
+               relative = relative.end_with?('/') ? relative : "#{relative}/"
+               relative
+             end
+%>
+<!DOCTYPE html>
+<html lang="<%= site['language'] || 'ja' %>">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+
+  <title><%= page_title ? "#{page_title} - #{site['title']}" : site['title'] %></title>
+
+  <meta name="description" content="<%= page_description || site['description'] %>">
+  <meta name="keywords" content="ydah,software,engineer,portfolio,ruby">
+
+  <meta property="og:site_name" content="<%= site['title'] %>">
+  <meta property="og:type" content="<%= page_type || 'website' %>">
+  <meta property="og:url" content="<%= site['url'] %><%= page_url %>">
+  <meta property="og:title" content="<%= page_title || site['title'] %>">
+  <meta property="og:description" content="<%= page_description || site['description'] %>">
+  <% if page_ogimage %>
+  <meta property="og:image" content="<%= site['url'] %>/assets/images/posts/<%= page_ogimage %>">
+  <% else %>
+  <meta property="og:image" content="<%= site['url'] %>/assets/images/ogp.png">
+  <% end %>
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@ydah_">
+
+  <link rel="icon" type="image/x-icon" href="<%= asset_path('favicon.ico') %>">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+
+  <%= vite_client_tag %>
+  <%= vite_js_tag 'src/main.js' %>
+</head>
+<body class="theme-dark min-h-screen flex flex-col">
+  <header class="site-header border-b">
+    <nav class="container mx-auto px-4 py-4 max-w-4xl">
+      <a href="<%= url_for('/') %>" class="text-xl font-light text-white hover:text-gray-300" style="font-family: 'Audrey', sans-serif;">
+        ydah.net
+      </a>
+    </nav>
+  </header>
+
+  <main class="container mx-auto px-4 py-8 max-w-5xl flex-1">
+    <section class="photo-hero">
+      <div class="photo-kicker">Photo Archive</div>
+      <h1 class="photo-title" style="font-family: 'Audrey', sans-serif;">Photograph</h1>
+      <p class="photo-subtitle">Film and digital frames collected across time and cities.</p>
+    </section>
+
+    <% photos = [
+      { title: 'Ecce homo', src: '/images/photo/001.jpg', url: 'https://www.instagram.com/p/BxC9rfmATTG/', note: '2018 at.Kyoto' },
+      { title: 'sea moon', src: '/images/photo/002.jpg', url: 'https://www.instagram.com/p/BxAGK4iAGLV/', note: '2018 at.Osaka' },
+      { title: 'Tempus fugit', src: '/images/photo/003.jpg', url: 'https://www.instagram.com/p/BxEuokxACZG/', note: '2019 at.Wakayama' },
+      { title: 'night dyed in red', src: '/images/photo/004.jpg', url: 'https://www.instagram.com/p/BxAPEwxAyOS/', note: '2018 at.Mie' },
+      { title: 'when the saints go marching in', src: '/images/photo/005.jpg', url: 'https://www.instagram.com/p/BxBC6XEgrwJ/', note: '2016 at.Hyogo' },
+      { title: 'goings-on forever', src: '/images/photo/006.jpg', url: 'https://www.instagram.com/p/Bw_DRy1gtxo/', note: '2018 at.Kyoto' },
+      { title: 'Ut illustrant', src: '/images/photo/007.jpg', url: 'https://www.instagram.com/p/BxENRHiAtgc/', note: '2019 at.Mie' },
+      { title: 'Ultima luceat', src: '/images/photo/008.jpg', url: 'https://www.instagram.com/p/BxENRHiAtgc/', note: '2019 at.Mie' },
+      { title: 'In lumine tuo videbimus lumen', src: '/images/photo/009.jpg', url: 'https://www.instagram.com/p/BxDBUwBgsNj/', note: '2016 at.Hyogo' },
+    ] %>
+
+    <section class="photo-grid">
+      <% photos.each do |photo| %>
+        <article class="photo-card">
+          <a href="<%= photo[:url] %>" target="_blank" rel="noopener noreferrer" class="photo-card-link">
+            <div class="photo-card-media">
+              <img src="<%= asset_path(photo[:src]) %>" alt="<%= photo[:title] %>">
+              <div class="photo-card-overlay">
+                <p class="photo-card-note"><%= photo[:note] %></p>
+                <h2 class="photo-card-title"><%= photo[:title] %></h2>
+              </div>
+            </div>
+          </a>
+        </article>
+      <% end %>
+    </section>
+  </main>
+
+  <footer class="site-footer border-t mt-auto">
+    <div class="container mx-auto px-4 py-4 max-w-4xl text-center text-gray-400">
+      <small>
+        &copy; <%= Time.now.year %> — ydah
+      </small>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<%
+  page_title = page['title'] || page[:title]
+  page_description = page['description'] || page[:description]
+  page_type = page['type'] || page[:type]
+  page_ogimage = page['ogimage'] || page[:ogimage]
+  page_path = page['path'] || ''
+  page_slug = page['slug'] || page[:slug]
+  page_url = if page_path.include?('content/posts/') && page_slug
+               "/blog/posts/#{page_slug}/"
+             elsif page_path.include?('content/activities/')
+               '/activities/'
+             else
+               relative = page_path.sub(%r{^content/?}, '').sub(/\.md$/, '')
+               relative = relative.sub(%r{(^|/)index$}, '\\1')
+               relative = '/' if relative.empty?
+               relative = "/#{relative}" unless relative.start_with?('/')
+               relative = relative.end_with?('/') ? relative : "#{relative}/"
+               relative
+             end
+%>
+<!DOCTYPE html>
+<html lang="<%= site['language'] || 'ja' %>">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+
+  <title><%= page_title ? "#{page_title} - #{site['title']}" : site['title'] %></title>
+
+  <meta name="description" content="<%= page_description || site['description'] %>">
+  <meta name="keywords" content="ydah,software,engineer,portfolio,ruby">
+
+  <meta property="og:site_name" content="<%= site['title'] %>">
+  <meta property="og:type" content="<%= page_type || 'website' %>">
+  <meta property="og:url" content="<%= site['url'] %><%= page_url %>">
+  <meta property="og:title" content="<%= page_title || site['title'] %>">
+  <meta property="og:description" content="<%= page_description || site['description'] %>">
+  <% if page_ogimage %>
+  <meta property="og:image" content="<%= site['url'] %>/assets/images/posts/<%= page_ogimage %>">
+  <% else %>
+  <meta property="og:image" content="<%= site['url'] %>/assets/images/ogp.png">
+  <% end %>
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@ydah_">
+
+  <link rel="icon" type="image/x-icon" href="<%= asset_path('favicon.ico') %>">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+
+  <%= vite_client_tag %>
+  <%= vite_js_tag 'src/main.js' %>
+</head>
+<body class="theme-dark min-h-screen flex flex-col">
+  <header class="site-header border-b">
+    <nav class="container mx-auto px-4 py-4 max-w-4xl">
+      <a href="<%= url_for('/') %>" class="text-xl font-light text-white hover:text-gray-300" style="font-family: 'Audrey', sans-serif;">
+        ydah.net
+      </a>
+    </nav>
+  </header>
+
+  <main class="container mx-auto px-4 py-8 max-w-4xl flex-1">
+    <% note_path = 'content/data/note.json' %>
+    <% note_missing = false %>
+    <% require 'json' %>
+    <% require 'time' %>
+    <% if File.exist?(note_path) %>
+      <% note_data = JSON.parse(File.read(note_path)) rescue {} %>
+      <% contents = note_data.dig('data', 'contents') || [] %>
+    <% else %>
+      <% note_missing = true %>
+      <% contents = [] %>
+    <% end %>
+
+    <section class="cook-hero">
+      <div class="cook-kicker">Kitchen Notes</div>
+      <h1 class="cook-title" style="font-family: 'Audrey', sans-serif;"><%= page_title %></h1>
+      <% if page['content'] || page[:content] %>
+        <div class="cook-subtitle">
+          <%= page['content'] || page[:content] %>
+        </div>
+      <% end %>
+      <div class="cook-stats">
+        <span><%= contents.size %> entries</span>
+      </div>
+    </section>
+
+    <% if note_missing %>
+      <p class="cook-empty">Note.com data file not found. Add <code>content/data/note.json</code> to render entries.</p>
+    <% elsif contents.empty? %>
+      <p class="cook-empty">Note.com data is empty. Update <code>content/data/note.json</code> to render entries.</p>
+    <% else %>
+      <div class="cook-grid">
+        <% contents.each do |item| %>
+          <% url = item['noteUrl'] || item['externalUrl'] || item['url'] %>
+          <% title = item['name'] || item['title'] || 'Untitled' %>
+          <% image = item['eyecatch'] || item['thumbnailExternalUrl'] || item['spEyecatch'] %>
+          <% published_at = item['publishAt'] %>
+          <% date_label = begin Time.parse(published_at).strftime('%Y/%m/%d') rescue nil end %>
+          <article class="cook-card">
+            <% if url %>
+              <a href="<%= url %>" target="_blank" rel="noopener noreferrer" class="cook-card-link note-card-link">
+            <% end %>
+            <div class="cook-card-media">
+              <% if image %>
+                <img src="<%= image %>" alt="<%= title %>">
+              <% else %>
+                <div class="cook-card-placeholder"></div>
+              <% end %>
+            </div>
+            <div class="cook-card-body">
+              <h2 class="note-card-title cook-card-title"><%= title %></h2>
+              <% if date_label %>
+                <time datetime="<%= published_at %>" class="cook-card-date"><%= date_label %></time>
+              <% end %>
+            </div>
+            <% if url %>
+              </a>
+            <% end %>
+          </article>
+        <% end %>
+      </div>
+    <% end %>
+  </main>
+
+  <footer class="site-footer border-t mt-auto">
+    <div class="container mx-auto px-4 py-4 max-w-4xl text-center text-gray-400">
+      <small>
+        &copy; <%= Time.now.year %> — ydah
+      </small>
+    </div>
+  </footer>
+</body>
+</html>

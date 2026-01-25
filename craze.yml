@@ -1,0 +1,47 @@
+site:
+  title: "Yudai TAKADA/ydah"
+  url: "https://ydah.net"
+  description: "This page shows the portfolio of software engineer ydah."
+  language: "ja"
+
+build:
+  out_dir: "dist"
+  base_path: "/"
+  clean: true
+
+content:
+  dir: "content"
+  collections:
+    posts:
+      pattern: "posts/**/*.md"
+      permalink: "/blog/posts/:slug/"
+    activities:
+      pattern: "activities/**/*.md"
+      permalink: "/activities/"
+
+templates:
+  dir: "templates"
+
+assets:
+  dir: "assets"
+
+integrations:
+  - sitemap
+  - rss
+  - search_index
+  - vite_assets
+
+frontend:
+  mode: "vite"
+  root: "frontend"
+  dev_server:
+    url: "http://localhost:5173"
+  build:
+    command: "npm run build"
+    out_dir: "frontend/dist"
+    public_base: "/"
+  copy_to:
+    dir: "dist/assets"
+    strategy: "copy"
+  manifest:
+    path: "frontend/dist/.vite/manifest.json"

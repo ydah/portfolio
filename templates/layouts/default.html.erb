@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="<%= site.language %>">
+<head>
+  <%= render partial: 'head' %>
+</head>
+<body class="theme-dark min-h-screen flex flex-col">
+  <%= render partial: 'header' %>
+
+  <main class="container mx-auto px-4 py-8 max-w-4xl flex-1">
+    <%= yield %>
+  </main>
+
+  <%= render partial: 'footer' %>
+
+  <%= vite_js_tag 'main' %>
+</body>
+</html>

@@ -1,0 +1,4 @@
+---
+title: "Photograph"
+layout: photo
+---
