@@ -278,6 +278,7 @@ April 2024 - present
 
 ---
 
-- 令和3年 (2021) 12月 - 現在: 株式会社アンドパッド (Software Engineer)
+- 令和5年 (2025) 11月 - 現在: 株式会社SmartHR (Product Engineer)
+- 令和3年 (2021) 12月 - 令和5年 (2025) 10月: 株式会社アンドパッド (Software Engineer)
 - 令和3年 (2021) 8月 - 令和3年 (2021) 11月: 株式会社ソリッドスター (Software Engineer)
 - 平成27年 (2015) 4月 - 令和3年 (2021) 7月: 株式会社ソリッドアーツ (Software Engineer)
