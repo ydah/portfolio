@@ -164,6 +164,21 @@ Author/Maintainer (2025.1 - present)
 
 ---
 
+- 第14回SmartHR LT大会 兼 忘年会レポート —— 忘年！ 忘年！ 忘年！  
+  SmartHR Tech Blog (2026.01)  
+  https://tech.smarthr.jp/entry/2026/01/22/100000
+- Rubyリリース30周年パーティー参加レポート  
+  SmartHR Tech Blog (2026.01)  
+  https://tech.smarthr.jp/entry/2026/01/21/100000
+- 北陸Ruby会議01レポート —— みんなとわたしたちのRubyの使い方  
+  SmartHR Tech Blog (2026.01)  
+  https://tech.smarthr.jp/entry/2026/01/20/130000
+- 北陸Ruby会議01に登壇します ── わたしたちはRubyをどう使うのか  
+  SmartHR Tech Blog (2025.11)  
+  https://tech.smarthr.jp/entry/2025/11/28/100000
+- SmartHRに入社した理由と実際に働いてみて感じたこと —— ydahの場合  
+  SmartHR Tech Blog (2025.11)  
+  https://tech.smarthr.jp/entry/2025/11/26/100000
 - 関西Ruby会議08 チーフオーガナイザーの ydah さんにタイムテーブルを解説してもらいました  
   ANDPAD | TECH BLOG (2025.06)  
   https://tech.andpad.co.jp/entry/2025/06/24/100000
