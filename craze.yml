@@ -39,7 +39,7 @@ frontend:
   build:
     command: "npm run build"
     out_dir: "frontend/dist"
-    public_base: "/"
+    public_base: "/assets/"
   copy_to:
     dir: "dist/assets"
     strategy: "copy"
