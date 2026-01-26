@@ -39,7 +39,7 @@ jobs:
       - name: Add CNAME for custom domain
         run: echo "www.ydah.net" > dist/CNAME
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: dist
 
