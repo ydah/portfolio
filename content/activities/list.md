@@ -112,6 +112,14 @@ Author/Maintainer (2025.1 - present)
 
 ---
 
+- Yudai Takada: わからない話を追いかけたら、プログラミング言語を作る側にいた  
+  きのこカンファレンス 2026 in 関西 (2026.08) [Slide](https://speakerdeck.com/ydah/ended-up-on-the-side-of-creating-ruby)
+- Yudai Takada: Rubyで音を視る  
+  松江Ruby会議12 (2026.06) [Slide](https://speakerdeck.com/ydah/seeing-sound-with-ruby-at-marrk12)
+- Yudai Takada: Liberating Ruby's Parser from Lexer Hacks  
+  RubyKaigi 2026 (2026.04) [Slide](https://speakerdeck.com/ydah/liberating-rubys-parser-from-lexer-hacks)
+- Yudai Takada: ルールルルルルRubyの中身の予備知識 ── RubyKaigiの前に予習しなイカ？  
+  RubyKaigi 2026事前勉強会 (2026.04) [Slide](https://speakerdeck.com/ydah/rubykaigi-2026-pre-briefing)
 - Yudai Takada: 計算機科学をRubyと歩む 〜DFA型正規表現エンジンをつくる～  
   北陸Ruby会議01 (2025.12) [Slide](https://speakerdeck.com/ydah/build-dfa-regex-engine-in-ruby-b97a5909-5b37-42bc-96ea-83f205303287), [Event page](https://regional.rubykaigi.org/hokuriku01/)
 - Yudai Takada: Joy with 3D Graphics Using Ruby  
@@ -166,6 +174,12 @@ Author/Maintainer (2025.1 - present)
 
 ---
 
+- 関西Ruby会議09 チーフオーガナイザーの ydah さんにタイムテーブルを解説してもらいました  
+  SmartHR Tech Blog (2026.07)  
+  https://tech.smarthr.jp/entry/2026/07/10/170000
+- Rubyをたどる──コミッター・OSS・コミュニティから読み解く記事6選  
+  Findy Media (2026.04)  
+  https://findy-code.io/media/articles/feature-2604
 - 第14回SmartHR LT大会 兼 忘年会レポート —— 忘年！ 忘年！ 忘年！  
   SmartHR Tech Blog (2026.01)  
   https://tech.smarthr.jp/entry/2026/01/22/100000
@@ -181,6 +195,12 @@ Author/Maintainer (2025.1 - present)
 - SmartHRに入社した理由と実際に働いてみて感じたこと —— ydahの場合  
   SmartHR Tech Blog (2025.11)  
   https://tech.smarthr.jp/entry/2025/11/26/100000
+- 「あなたのキャリアのなかで、特に印象に残るPull Requestは何ですか？」著名エンジニアの方々に聞いた〖第四弾〗  
+  Findy Engineer Lab (2025.11)  
+  https://findy-code.io/engineer-lab/pullrequest-memory04
+- すべては1杯のビールから、 偶然の出会いが切り拓いたRuby パーサー開発の道  
+  Findy Media (2025.08)  
+  <https://findy-code.io/media/articles/codesidechat-ydah_>
 - 関西Ruby会議08 チーフオーガナイザーの ydah さんにタイムテーブルを解説してもらいました  
   ANDPAD | TECH BLOG (2025.06)  
   https://tech.andpad.co.jp/entry/2025/06/24/100000
